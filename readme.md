@@ -4,7 +4,8 @@
 ## Confrimed particpating groups, models, & main contacts
 - To be listed after call
 
-## To do - once you sign up - create a readme file here about about your model (example naming: Readme-WRF-chem-marelle.md) include these sections:
+## To do - once you sign up 
+> create a readme file here about about your model (example naming: Readme-WRF-chem-marelle.md) include these sections
 - Last publication of model version with polar halogen chemistry, doi
 - Short description of what is included
 - Model resolution & driving meterology that you can use
