@@ -49,4 +49,3 @@
 
 
 
-## We will likely ask each group to extract the data at each station rather than centralizing model output for comparison.  To be discussed.
