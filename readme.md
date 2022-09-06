@@ -43,7 +43,7 @@
 - SSA, ozone, BrO?
 
 ### Ship data
-- Whcih ones, depending on year
+- Which ones, depending on year
 
 ### Sondes or other met data
 
