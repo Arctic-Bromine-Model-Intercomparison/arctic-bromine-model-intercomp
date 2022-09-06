@@ -17,7 +17,7 @@
 ## Model simulation period
 - TBD
 
-## List of model outputs that must be saved
+## List of model outputs that must be saved (table to be created with units and naming)
 ### 3D output
 - Sea salt aerosol mass (size and nubmer concnetration if possible)
 - wind speeds and wind directions
