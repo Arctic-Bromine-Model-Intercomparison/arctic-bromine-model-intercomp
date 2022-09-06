@@ -11,8 +11,8 @@
 - Model resolution & driving meterology that you can use
 - Note if you can or are you willing to do sensitivty runs with certain processes off?
 
-## Recommended driving met
-- ERA5
+## Recommended model setup
+- TBD
 
 ## Model simulation period
 - TBD
