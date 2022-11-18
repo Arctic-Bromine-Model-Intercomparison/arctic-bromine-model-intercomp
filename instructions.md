@@ -1,9 +1,9 @@
 # Required model output variables
 | Variable      | Unit | Dimensions | Frequency |
 | ----------- | ----------- | ---------------- | ------------|
-| Surface O3 concentration | ppbv | 2 | 3-Hourly |
-| Surface BrO concentration | ppbv | 2 | 3-Hourly |
-| Surface sea salt aerosol mass concentration < 10 ${\mu}m$ | $\mu g/m^{3}$ | 2 | 3-Hourly |
+| Surface $O_3$ mixing ratio | ppbv | 2 | 3-Hourly |
+| Surface BrO mixing ratio | ppbv | 2 | 3-Hourly |
+| Surface sea salt aerosol mass concentration < 10 ${\mu}m$ diameter | $\mu g/m^{3}$ | 2 | 3-Hourly |
 | 2-meter air temperature | K | 2 | 3-Hourly |
 | Surface pressure | Pa | 2 | 3-Hourly |
 | 10-m wind speed | m/s | 2 | 3-Hourly |
