@@ -1,3 +1,5 @@
+# Output Varibles that need to be saved
+
 | Variable      | Unit | Dimensions | Frequency |
 | ----------- | ----------- | ---------------- | ------------|
 | Sea salt aerosol mass concentration  | $\mu g/m^{3}$ | 3 | Hourly |
@@ -20,3 +22,13 @@
 | Boundary layer height | $m$ | 2 | Hourly |
 | Sea ice fraction | \% | 2 | Hourly |
 | Sea salt aerosol mass emissions | $\mu g/m^{2}$ | 2 | Hourly |
+
+# Station 
+| Station name      | Lat | Lon | 
+| ----------- | ----------- | ---------------- | 
+
+# Ship track location - 2020 
+
+
+# Buoy locations - 2012
+
