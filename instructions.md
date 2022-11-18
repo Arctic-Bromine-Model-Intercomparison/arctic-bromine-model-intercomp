@@ -38,5 +38,6 @@
 
 # Ship track location for data interpolation - 2020 
 
-
+# Sattelite comparison
+We will provide output of BrO, Temperature, Pressure, and relative humidity as netcdf files to U.~Bremen and they will compare all the models to their satellite retrievals.
 
