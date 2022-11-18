@@ -1,27 +1,46 @@
-# Output Varibles that need to be saved
-
+# Required model output variables
 | Variable      | Unit | Dimensions | Frequency |
 | ----------- | ----------- | ---------------- | ------------|
-| Sea salt aerosol mass concentration  | $\mu g/m^{3}$ | 3 | Hourly |
-| Sea salt aerosol number concentration  | \# $/m^{3}$ | 3 | Hourly |
-| Wind speed and direction | $m/s$ | 3 | Hourly |
-| Air temperature | $K$ | 3 | Hourly |
-| Br mixing ratio | $ppbv$ | 3 | Hourly |
-| BrO mixing ratio | $ppbv$ | 3 | Hourly |
-| Br2 mixing ratio | $ppbv$ | 3 | Hourly |
-| HOBr mixing ratio | $ppbv$ | 3 | Hourly |
-| Cl concentration | $\mu g/m^{3}$ | 3 | Hourly |
-| ClO concentration | $\mu g/m^{3}$ | 3 | Hourly |
-| Cl2 concentration | $\mu g/m^{3}$ | 3 | Hourly |
-| HOCl concentration | $\mu g/m^{3}$ | 3 | Hourly |
-| O3 concentration | $ppbv$ | 3 | Hourly |
-| Pressure | $Pa$ | 3 | Hourly |
-| Relative humidity | \% | 3 | Hourly |
-| Specific humidity | $kg/kg$ | 3 | Hourly |
-| Sea surface temperature | $K$ | 2 | Hourly |
-| Boundary layer height | $m$ | 2 | Hourly |
-| Sea ice fraction | \% | 2 | Hourly |
-| Sea salt aerosol mass emissions | $\mu g/m^{2}$ | 2 | Hourly |
+| Surface O3 concentration | ppbv | 2 | 3-Hourly |
+| Surface BrO concentration | ppbv | 2 | 3-Hourly |
+| Surface sea salt aerosol mass concentration < 10 ${\mu}m$ | $\mu g/m^{3}$ | 2 | 3-Hourly |
+| 2-meter air temperature | K | 2 | 3-Hourly |
+| Surface pressure | Pa | 2 | 3-Hourly |
+| 10-m wind speed | m/s | 2 | 3-Hourly |
+| Boundary layer height | m | 2 | 3-Hourly |
+| Sea ice concentration | \% | 2 | Daily |
+| $Br_2$ emissions| $moles/m^{2}$ | 2 | Daily |
+| Sea salt aerosol emissions| $mg/m^{2}$ | 2 | Daily |
+
+# Recommended additional model output
+| Variable      | Unit | Dimensions | Frequency |
+| ----------- | ----------- | ---------------- | ------------|
+| $O_3$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| BrO mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| $Br_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| HOBr mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| HBr mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| ClO mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| $Cl2_$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| HOCl concentration | $ppbv$ | 3 | 3-Hourly |
+| HCl mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| IO mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| $I_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| Sea salt aerosol mass concentration < 10 ${\mu}m$ | $\mu g/m^{3}$ | 3 | 3-Hourly |
+| Sea salt aerosol number concentration < 10 ${\mu}m$ | \# $/m^{3}$ | 3 | 3-Hourly |
+| Air temperature | $K$ | 3 | 3-Hourly |
+| Air pressure | $Pa$ | 3 | 3-Hourly |
+| Wind speed | $m/s$ | 3 | 3-Hourly |
+| Wind direction | $^\circ$ | 3 | 3-Hourly |
+| Relative humidity | \% | 3 | 3-Hourly |
+| Specific humidity | $kg/kg$ | 3 | 3-Hourly |
+| Boundary layer height | $m$ | 2 | 3-Hourly |
+| Sea ice concentration | \% | 2 | Daily |
+| $Br_2$ emissions from surface snow| $moles/m^{2}$ | 2 | Daily |
+| $Br_2$ emissions from blowing snow| $moles/m^{2}$ | 2 | Daily |
+| $Br_2$ emissions from sea spray| $moles/m^{2}$ | 2 | Daily |
+| Sea salt aerosol emissions from blowing snow| $mg/m^{2}$ | 2 | Daily |
+| Sea salt aerosol emissions from sea spray | $mg/m^{2}$ | 2 | Daily |
 
 # Station locations for data interpolation
 | Station name      | Lat | Lon | Measurement altitute (meters ASL) |
