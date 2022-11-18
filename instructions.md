@@ -24,14 +24,14 @@
 | Sea salt aerosol mass emissions | $\mu g/m^{2}$ | 2 | Hourly |
 
 # Station locations for data interpolation
-| Station name      | Lat | Lon | Measurement altitute (meters ASL)
+| Station name      | Lat | Lon | Measurement altitute (meters ASL) |
 | ----------- | ----------- | ---------------- | ---------  |
 |Utqiagvik    | 71.323 |  -156.611 | 11 |
-Tiksi  | 71.586 | 128.919 | 8 |
-Summit | 72.58 | -38.48 | 3216 |
-Nord  | 81.600 | -16.670 | 20 |
-Alert | 82.499 | -62.341 | 210 |
-Zeppelin | 78.91  | 11.888 | 474 |
+|Tiksi  | 71.586 | 128.919 | 8 |
+|Summit | 72.578 | -38.459 | 3216 |
+|Nord  | 81.600 | -16.670 | 20 |
+|Alert | 82.499 | -62.341 | 210 |
+|Zeppelin | 78.910  | 11.888 | 474 |
 
 
 # Buoy locations for data interpolation - 2012
