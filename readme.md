@@ -17,7 +17,7 @@ Spring 2020 case study:
 
 There are no other requirements for emissions, driving meteorological data or other detailed model setup options.
 
-## Observations used for the comparisons, required variable output
+## Observations used for the comparisons, required model output
 See detailed  instructions in instructions.md (https://github.com/jenniethomas/arctic-bromine-model-intercomp/blob/main/instructions.md)
 
 ## Confirmed participating groups, models, & main contacts
