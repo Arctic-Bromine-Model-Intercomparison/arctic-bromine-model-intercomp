@@ -11,7 +11,7 @@
 | Sea ice concentration | \% | 2 | Daily |
 | $Br_2$ emissions| $moles/m^{2}$ | 2 | Daily |
 | Sea salt aerosol emissions| $mg/m^{2}$ | 2 | Daily |
-| Altitude of lowermost model level | m | - | - |
+| Altitude of lowermost model level | m AGL + m ASL| - | - |
 
 # Recommended additional model output
 | Variable      | Unit | Dimensions | Frequency |
