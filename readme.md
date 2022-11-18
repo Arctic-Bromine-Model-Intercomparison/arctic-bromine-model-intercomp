@@ -1,54 +1,29 @@
-# Plans for a Polar Bromine Model Intercomparsion 
-- Email jennie.thomas@univ-grenoble-alpes.fr with your github login to be added to this repo to edit
-- Our first meeting 6 Sept 2022
-  - presentation: https://docs.google.com/presentation/d/1l1xKaok0uo2QOVU-icYYkir6onIUyFH1ILIkRZ3w1h4/edit?usp=sharing 
-  - attendees: https://etherpad.wikimedia.org/p/Polar-bromine-intercomp-6Sept2022
+# Plans for a Polar Bromine Model Intercomparison
+
+## Description of the bromine intercomparison plan
+Our plan is to compare and evaluate 3D atmospheric models which include polar halogen sources and reproduce surface ozone depletion. Models will be evaluated against in situ and satellite observations in the Arctic from Spring 2012 and Spring 2020.
+
+## How to Join
+Email jennie.thomas@univ-grenoble-alpes.fr with your github login to be added to this repository (https://github.com/jenniethomas/arctic-bromine-model-intercomp/) and to the project's google group (https://groups.google.com/g/arcbromintercomp).
+
+## Simulation instructions for Spring 2012 and Spring 2020 case studies
+Spring 2012 case study:
+- Simulation dates: 2012/03/01 00 UTC to 2012/06/01 00 UTC (+ appropriate model spinup so that March 1st data is usable)
+- Simulation domain (for regional models): needs to include the whole Arctic above the Arctic Circle
+
+Spring 2020 case study:
+- Simulation dates 2020/03/01 00 UTC to 2020/06/01 00 UTC (+ appropriate model spinup so that March 1st data is usable)
+- Simulation domain (for regional models): needs to include the whole Arctic above the Arctic Circle
+
+There are no other requirements for emissions, driving meteorological data or other detailed model setup options.
+
+## Observations used for the comparisons, required variable output
+See detailed  instructions in instructions.md (https://github.com/jenniethomas/arctic-bromine-model-intercomp/blob/main/instructions.md)
 
 ## Confirmed participating groups, models, & main contacts
-- To be listed after call
+- To be listed.
 
-## To do - once you sign up 
-> create a readme file here about about your model (example naming: Readme-WRF-chem-marelle.md) include these sections
-- Last publication of model version with polar halogen chemistry, doi
-- Short description of what is included
-- Model resolution & driving meteorology that you can use
-- Note if you can or are you willing to do sensitivty runs with certain processes off?
-
-## Recommended model setup
-- TBD
-
-## Model simulation period
-- TBD
-
-## List of model outputs that must be saved (table to be created with units and naming)
-### 3D output
-- Sea salt aerosol mass (size and number concentration if possible)
-- wind speeds and wind directions
-- Temperature
-- Br, BrO, Br2, HOBr 
-- Cl, ClO, Cl2, HOCl 
-- Ozone
-- Pressure
-- RH or Specific Humidity
-
-### 2D output
-- SST
-- BL height
-- Ice fraction
-- Sea salt aerosol emissions
-
-## Obs that will be used for comparison
-### Satellite
-- If yes, how we will compare and with which product(s)?
-
-### Station data
-- Which ones, what obs?
-- SSA, ozone, BrO?
-
-### Ship data
-- Which ones, depending on year
-
-### Sondes or other met data
-
-
-
+## Past meetings
+Our first meeting 6 Sept 2022
+- presentation: https://docs.google.com/presentation/d/1l1xKaok0uo2QOVU-icYYkir6onIUyFH1ILIkRZ3w1h4/edit?usp=sharing 
+- attendees: https://etherpad.wikimedia.org/p/Polar-bromine-intercomp-6Sept2022
