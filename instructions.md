@@ -39,5 +39,5 @@
 # Ship track location for data interpolation - 2020 
 
 # Satellite comparison
-Models should plan to provide netcdf files of BrO, Temperature, Pressure, and relative humidity as netcdf files to U.~Bremen and they will compare all the models to their satellite retrievals.
+Models should plan to provide netcdf files of BrO, Temperature, Pressure, and relative humidity as netcdf files to U. Bremen and they will compare the models to their satellite retrievals.
 
