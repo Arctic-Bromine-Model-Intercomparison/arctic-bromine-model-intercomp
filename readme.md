@@ -24,9 +24,8 @@ See detailed  instructions in instructions.md (https://github.com/jenniethomas/a
 - To be listed.
 
 ## Next meeting
-Arctic Bromine Model Intercomparison 
-8 Dec 2022 at 16:30 to 17:30, CET
-Please join our mailing list to get all the meeting info!
+- 8 Dec 2022 at 16:30 to 17:30, CET
+- Please join our mailing list to get all the meeting info!
 
 ## Past meetings
 ### 6 Sept 2022
