@@ -21,7 +21,7 @@
 | HOBr mixing ratio | $ppbv$ | 3 | 3-Hourly |
 | HBr mixing ratio | $ppbv$ | 3 | 3-Hourly |
 | ClO mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| $Cl2_$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| $Cl_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
 | HOCl concentration | $ppbv$ | 3 | 3-Hourly |
 | HCl mixing ratio | $ppbv$ | 3 | 3-Hourly |
 | IO mixing ratio | $ppbv$ | 3 | 3-Hourly |
