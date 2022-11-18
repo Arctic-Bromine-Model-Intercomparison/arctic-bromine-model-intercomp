@@ -23,12 +23,14 @@
 | Sea ice fraction | \% | 2 | Hourly |
 | Sea salt aerosol mass emissions | $\mu g/m^{2}$ | 2 | Hourly |
 
-# Station 
+# Station locations for data interpolation
 | Station name      | Lat | Lon | 
 | ----------- | ----------- | ---------------- | 
 
-# Ship track location - 2020 
+
+# Buoy locations for data interpolation - 2012
+
+# Ship track location for data interpolation - 2020 
 
 
-# Buoy locations - 2012
 
