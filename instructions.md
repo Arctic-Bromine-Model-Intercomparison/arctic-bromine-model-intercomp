@@ -35,11 +35,11 @@
 
 
 # Buoy locations for data interpolation - 2012
-A text file with hourly locations of O-Buoy 4 and O-Buoy 6 will be provided for models to interpolate data their locations.
+A text file with hourly locations of O-Buoy 4 and O-Buoy 6 will be provided for models to interpolate data to their locations.
 
 # Ship track location for data interpolation - 2020 
-A text file with the hourly locaiton of the MOSAiC expedition will be provided for models to interpolate their data to the Polarstern location.
+A text file with the hourly location of the MOSAiC expedition will be provided for models to interpolate their data to the Polarstern location.
 
 # Satellite comparison
-Models should plan to provide netcdf files of BrO, Temperature, Pressure, and relative humidity as netcdf files to U. Bremen and they will compare the models to their satellite retrievals.
+Models should plan to provide netcdf files of BrO, Temperature, Pressure, and Relative humidity as netcdf files to U. Bremen and they will compare the models to their satellite retrievals.
 
