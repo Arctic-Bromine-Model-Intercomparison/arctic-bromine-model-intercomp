@@ -26,6 +26,12 @@
 # Station locations for data interpolation
 | Station name      | Lat | Lon | 
 | ----------- | ----------- | ---------------- | 
+|Utqiagvik    | 71.323 |  -156.611 |
+Tiksi  | 71.586 | 128.919 |
+Summit | 72.58 | -38.48 |
+Nord  | 81.600 | -16.670 |
+Alert | 82.499 | -62.341 |
+Zeppelin | 78.91  | 11.888 |
 
 
 # Buoy locations for data interpolation - 2012
