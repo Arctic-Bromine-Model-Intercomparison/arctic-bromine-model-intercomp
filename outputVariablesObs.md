@@ -61,5 +61,5 @@ A text file with hourly locations of O-Buoy 4 and O-Buoy 6 will be provided for 
 A text file with the hourly location of the MOSAiC expedition will be provided for models to interpolate their data to the Polarstern location.
 
 # Satellite comparison
-Models should plan to provide netcdf files of BrO, Temperature, Pressure, and Relative humidity as netcdf files to U. Bremen and they will compare the models to their satellite retrievals.
+Models should plan to provide netcdf files of BrO and other essential varaibles as netcdf files to U. Bremen and they will compare the models to their satellite retrievals.
 
