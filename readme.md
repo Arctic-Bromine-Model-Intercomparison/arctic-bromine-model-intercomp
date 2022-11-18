@@ -1,4 +1,4 @@
-# Plans for a Polar Bromine Model Intercomparison
+# Polar Bromine Model Intercomparison
 
 ## Description of the bromine intercomparison plan
 Our plan is to compare and evaluate 3D atmospheric models which include polar halogen sources and reproduce surface ozone depletion. Models will be evaluated against in situ and satellite observations in the Arctic from Spring 2012 and Spring 2020.
