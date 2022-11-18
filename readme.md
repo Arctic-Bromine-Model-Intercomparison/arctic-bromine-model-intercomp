@@ -23,7 +23,12 @@ See detailed  instructions in instructions.md (https://github.com/jenniethomas/a
 ## Confirmed participating groups, models, & main contacts
 - To be listed.
 
+## Next meeting
+Arctic Bromine Model Intercomparison 
+8 Dec 2022 at 16:30 to 17:30, CET
+Please join our mailing list to get all the meeting info!
+
 ## Past meetings
-Our first meeting 6 Sept 2022
+### 6 Sept 2022
 - presentation: https://docs.google.com/presentation/d/1l1xKaok0uo2QOVU-icYYkir6onIUyFH1ILIkRZ3w1h4/edit?usp=sharing 
 - attendees: https://etherpad.wikimedia.org/p/Polar-bromine-intercomp-6Sept2022
