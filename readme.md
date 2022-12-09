@@ -24,10 +24,17 @@ See detailed  instructions in instructions.md (https://github.com/jenniethomas/a
 - To be listed.
 
 ## Next meeting
-- 8 Dec 2022 at 16:30 to 17:30, CET
 - Please join our mailing list to get all the meeting info!
 
 ## Past meetings
+### 8 Dec 2022 at 16:30 to 17:30, CET
+- Decided on run dates 
+- discussed output variables, decided to add OH, HO2, NO, NO2, PM2.5 and PM10.  Model output only needs to be saved above 50N.  Agreed 3 hour output is needed
+- Decided to make a 3rd category of output, which is 'highly recommended', then 'nice to have', this will be updated in the next few weeks and ciruclated for comment
+- encouraged all modeling groups to fill out our particpation survey
+- Next meeting will focus on getting obervational datasets identified and lat/lon/alt/times for interpolation of model data.
+
+
 ### 6 Sept 2022
 - presentation: https://docs.google.com/presentation/d/1l1xKaok0uo2QOVU-icYYkir6onIUyFH1ILIkRZ3w1h4/edit?usp=sharing 
 - attendees: https://etherpad.wikimedia.org/p/Polar-bromine-intercomp-6Sept2022
