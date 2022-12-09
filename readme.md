@@ -29,9 +29,15 @@ See detailed  instructions in instructions.md (https://github.com/jenniethomas/a
 ## Past meetings
 ### 8 Dec 2022 at 16:30 to 17:30, CET
 - Decided on run dates 
-- discussed output variables, decided to add OH, HO2, NO, NO2, PM2.5 and PM10.  Model output only needs to be saved above 50N.  Agreed 3 hour output is needed
-- Decided to make a 3rd category of output, which is 'highly recommended', then 'nice to have', this will be updated in the next few weeks and ciruclated for comment
-- encouraged all modeling groups to fill out our particpation survey
+- Discussed output variables:
+  - Decided to make a 3rd category of output, which is 'highly recommended', then 'nice to have', this will be updated in the next few weeks and circulated for comment
+  - Decided to add OH, HO2, NO, NO2, PM2.5 and PM10
+  - Decided global model output only needs to be saved above 50N to include the Arctic and Hudson Bay 
+  - Decided regional model domains need to cover the Arctic Circle + Hudson Bay (not necessarily the full > 50N area outside of Hudson Bay).
+  - Agreed 3-hourly 3D output of BrO,T,P is needed for comparing to satellite BrO.
+  - Other 3-hourly output is required to interpolate at location of observations for evaluating the models. The full 3-hourly 2D fields or 3D fields are not required if models can perform this interpolation at runtime - but the 3-hourly 2D fields are still highly recommended.
+  - PBL height can be calculated in several ways - models will provide their standard PBLH output and an explanation of how it is calculated.
+- Encouraged all modeling groups to fill out our participation survey
 - Next meeting will focus on getting obervational datasets identified and lat/lon/alt/times for interpolation of model data.
 
 
