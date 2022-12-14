@@ -9,11 +9,11 @@ Email jennie.thomas@univ-grenoble-alpes.fr with your github login to be added to
 ## Simulation instructions for Spring 2012 and Spring 2020 case studies
 Spring 2012 case study:
 - Simulation dates: 2012/03/01 00 UTC to 2012/06/01 00 UTC (+ appropriate model spinup so that March 1st data is usable)
-- Simulation domain (for regional models): needs to include the whole Arctic above the Arctic Circle
+- Simulation domain (for regional models): needs to include the whole Arctic above the Arctic Circle + Hudson Bay
 
 Spring 2020 case study:
 - Simulation dates 2020/03/01 00 UTC to 2020/06/01 00 UTC (+ appropriate model spinup so that March 1st data is usable)
-- Simulation domain (for regional models): needs to include the whole Arctic above the Arctic Circle
+- Simulation domain (for regional models): needs to include the whole Arctic above the Arctic Circle + Hudson Bay
 
 There are no other requirements for emissions, driving meteorological data or other detailed model setup options.
 
