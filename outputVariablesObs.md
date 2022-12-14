@@ -1,22 +1,29 @@
 # Required model output variables
+The absolute minimal results to provide in the intercomparison are the following:
+- The 2D/3D variables in the table below, interpolated along relevant observation stations and campaigns
+- The 3D BrO,T,P data in the table below, processed appropriately for comparison to satellite BrO observations
+- Daily 2D variables from the table below
+It is very highly recommended that all the full 2D/3D fields in the table below can be saved, so that these interpolations and analysis can be performed later (and redone in case of errors).
+
 | Variable      | Unit | Dimensions | Frequency |
 | ----------- | ----------- | ---------------- | ------------|
 | Surface $O_3$ mixing ratio | ppbv | 2 | 3-Hourly |
 | Surface BrO mixing ratio | ppbv | 2 | 3-Hourly |
-| BrO mixing ratio | $ppbv$ | 3 | 3-Hourly |
 | Surface sea salt aerosol mass concentration < 10 ${\mu}m$ diameter | $\mu g/m^{3}$ | 2 | 3-Hourly |
 | 2-meter air temperature | K | 2 | 3-Hourly |
 | Surface pressure | Pa | 2 | 3-Hourly |
-| Air temperature | K | 3 | 3-Hourly |
-| Air pressure | Pa | 3 | 3-Hourly |
 | 10-m wind speed | m/s | 2 | 3-Hourly |
 | Boundary layer height | m | 2 | 3-Hourly |
+| BrO mixing ratio for satellite comparison | $ppbv$ | 3 | 3-Hourly |
+| Air temperature for satellite comparison | K | 3 | 3-Hourly |
+| Air pressure for satellite comparison | Pa | 3 | 3-Hourly |
 | Sea ice concentration | \% | 2 | Daily |
 | $Br_2$ emissions| $moles/m^{2}$ | 2 | Daily |
 | Sea salt aerosol emissions| $mg/m^{2}$ | 2 | Daily |
 | Altitude of lowermost model level | m AGL + m ASL| - | - |
 
 # Highly recommended model output
+If some of these variables cannot be saved by your model, saving some is better than none!
 | Variable      | Unit | Dimensions | Frequency |
 | ----------- | ----------- | ---------------- | ------------|
 | $O_3$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
@@ -39,6 +46,7 @@
 | Sea salt aerosol emissions from sea spray | $mg/m^{2}$ | 2 | Daily |
 
 # Nice-to-have model output
+If some of these variables cannot be saved by your model, saving some is better than none!
 | Variable      | Unit | Dimensions | Frequency |
 | ----------- | ----------- | ---------------- | ------------|
 | $Br_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
