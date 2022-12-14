@@ -1,9 +1,9 @@
 # Required model output variables
 The absolute minimal results to provide in the intercomparison are the following:
-- The 2D/3D variables in the table below, interpolated along relevant observation stations and campaigns
-- The 3D BrO,T,P data in the table below, processed appropriately for comparison to satellite BrO observations
+- 3-hourly 2D/3D variables in the table below, interpolated along relevant observation stations and campaigns
+- 3-hourly 3D BrO,T,P data in the table below, processed appropriately for comparison to satellite BrO observations
 - Daily 2D variables from the table below
-It is very highly recommended that all the full 2D/3D fields in the table below can be saved, so that these interpolations and analysis can be performed later (and redone in case of errors).
+We strongly recommend that all the full 2D/3D fields in the table below are saved, so that interpolations and analysis can be redone in case of errors.
 
 | Variable      | Unit | Dimensions | Frequency |
 | ----------- | ----------- | ---------------- | ------------|
