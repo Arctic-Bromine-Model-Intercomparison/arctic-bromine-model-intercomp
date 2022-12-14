@@ -18,6 +18,7 @@ We strongly recommend that all the full 2D/3D fields in the table below are save
 | BrO mixing ratio for satellite comparison | $ppbv$ | 3 | 3-Hourly |
 | Air temperature for satellite comparison | K | 3 | 3-Hourly |
 | Air pressure for satellite comparison | Pa | 3 | 3-Hourly |
+| Altitudes of model levels for satellite comparison | m AGL + m ASL| - | - |
 | Sea ice concentration | \% | 2 | Daily |
 | $Br_2$ emissions| $moles/m^{2}$ | 2 | Daily |
 | Sea salt aerosol emissions| $mg/m^{2}$ | 2 | Daily |
