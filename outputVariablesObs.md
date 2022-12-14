@@ -20,27 +20,16 @@
 | Variable      | Unit | Dimensions | Frequency |
 | ----------- | ----------- | ---------------- | ------------|
 | $O_3$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| $Br_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| HOBr mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| HBr mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| ClO mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| $Cl_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| HOCl concentration | $ppbv$ | 3 | 3-Hourly |
-| HCl mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| IO mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| $I_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
 | Sea salt aerosol mass concentration < 10 ${\mu}m$ | $\mu g/m^{3}$ | 3 | 3-Hourly |
 | Sea salt aerosol number concentration < 10 ${\mu}m$ | \# $/m^{3}$ | 3 | 3-Hourly |
-| OH mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| $HO_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| NO mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| NO2 mixing ratio | $ppbv$ | 3 | 3-Hourly |
 | $PM_{2.5}$ concentration | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
 | $PM_{10}$ concentration | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
-| Wind speed | $m/s$ | 3 | 3-Hourly |
-| Wind direction | $^\circ$ | 3 | 3-Hourly |
-| Relative humidity | \% | 3 | 3-Hourly |
-| Specific humidity | $kg/kg$ | 3 | 3-Hourly |
+| Surface Wind speed | $m/s$ | 2 | 3-Hourly |
+| Surface Wind direction | $^\circ$ | 2 | 3-Hourly |
+| Surface Relative or specific humidity | \% or $kg/kg$ | 2 | 3-Hourly |
+| Surface $Br_2$ mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| Surface OH mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| Surface $HO_2$ mixing ratio | $ppbv$ | 2 | 3-Hourly |
 | Boundary layer height | $m$ | 2 | 3-Hourly |
 | Sea ice concentration | \% | 2 | Daily |
 | $Br_2$ emissions from surface snow| $moles/m^{2}$ | 2 | Daily |
@@ -52,6 +41,23 @@
 # Nice-to-have model output
 | Variable      | Unit | Dimensions | Frequency |
 | ----------- | ----------- | ---------------- | ------------|
+| $Br_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| OH mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| $HO_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| HOBr mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| HBr mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| ClO mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| $Cl_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| HOCl concentration | $ppbv$ | 3 | 3-Hourly |
+| HCl mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| IO mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| $I_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| NO mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| NO2 mixing ratio | $ppbv$ | 3 | 3-Hourly |
+| Wind speed | $m/s$ | 3 | 3-Hourly |
+| Wind direction | $^\circ$ | 3 | 3-Hourly |
+| Relative or specific humidity | \% or $kg/kg$ | 3 | 3-Hourly |
+| Specific humidity | $kg/kg$ | 3 | 3-Hourly |
 
 # Station locations for data interpolation
 | Station name      | Lat | Lon | Measurement altitute (meters ASL) |
