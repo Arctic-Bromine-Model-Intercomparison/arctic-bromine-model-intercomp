@@ -85,8 +85,8 @@ A text file with hourly locations of O-Buoy 4 and O-Buoy 6 will be provided for 
 # Ship track location for data interpolation - 2020 
 A text file with the hourly location of the MOSAiC expedition will be provided for models to interpolate their data to the Polarstern location.
 
+# Ozone sonde locations for data interpolation - 2012 and 2020
+For models that keep subdaily 3D ozone data, text files with 3D location and time of ozone sonde profiles will be provided for modelers to interpolate data to their locations. 
+
 # Satellite comparison
 Models should plan to provide netcdf files of BrO and other essential varaibles as netcdf files to U. Bremen and they will compare the models to their satellite retrievals.
-
-# Ozone sonde comparison - 2012 and 2020
-For models that keep subdaily 3D ozone data, text files with 3D location and time of ozone sonde profiles will be provided for modelers to interpolate data to their locations. 
