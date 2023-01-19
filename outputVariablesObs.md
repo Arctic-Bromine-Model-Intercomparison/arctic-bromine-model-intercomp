@@ -77,7 +77,7 @@ If some of these variables cannot be saved by your model, saving some is better 
 |Nord  | 81.600 | -16.670 | 20 |
 |Alert | 82.499 | -62.341 | 210 |
 |Zeppelin | 78.910  | 11.888 | 474 |
-|Eureka | 80.05000 | -86.41666 | 610 |
+|Eureka | 80.050 | -86.417 | 610 |
 
 # Buoy locations for data interpolation - 2012
 A text file with hourly locations of O-Buoy 4 and O-Buoy 6 will be provided for models to interpolate data to their locations.
