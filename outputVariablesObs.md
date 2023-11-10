@@ -23,6 +23,10 @@ We strongly recommend that all the full 2D/3D fields in the table below are save
 | Sea salt aerosol emissions| $mg/m^{2}$ | 2 | Daily |
 | Altitude of lowermost model level | m AGL + m ASL| - | - |
 
+In addition, the following information should be saved:
+- Model grid dimensions: time, latitude, longitude, layers, levels
+- Model information/attributes: provider, model, version, creation_date
+
 # Highly recommended model output
 If some of these variables cannot be saved by your model, saving some is better than none!
 | Variable      | Unit | Dimensions | Frequency |
@@ -89,4 +93,14 @@ A text file with the hourly location of the MOSAiC expedition will be provided f
 For models that keep subdaily 3D ozone data, text files with 3D location and time of ozone sonde profiles will be provided for modelers to interpolate data to their locations. 
 
 # Satellite comparison
-Models should plan to provide netcdf files of BrO and other essential varaibles as netcdf files to U. Bremen and they will compare the models to their satellite retrievals.
+Models should plan to provide NetCDF files of model output to U. Bremen and they will compare the model fields to their satellite retrievals.  The following information is needed in the files:
+ 
+- NetCDF dimensions: time, latitude, longitude, layers, levels
+- NetCDF 4d-variables: BrO mixing ratio [ppbv] and temperature [K] at layer centres, pressure [Pa] at layer interfaces
+- NetCDF 2(3)d-variable: surface altitude [m]
+- NetCDF attributes: provider, model, version, creation_date
+
+Pressure can also be provided in the form of surface pressure and hybrid coefficients. 
+Spatial and temporal resolution should be as high as possible. Daily files are preferred, but hourly or monthly files are also ok. Hourly output would be perfect.
+
+If you are planning to participate in the comparison to satellite data, please provide a small test file to Andreas Richter (richter@iup.physik.uni-bremen.de) to ensure that we can deal with the file format.
