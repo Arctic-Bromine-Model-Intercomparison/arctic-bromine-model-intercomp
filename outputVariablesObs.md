@@ -100,7 +100,8 @@ Models should plan to provide NetCDF files of model output to U. Bremen and they
 - NetCDF 2(3)d-variable: surface altitude [m]
 - NetCDF attributes: provider, model, version, creation_date
 
-Pressure can also be provided in the form of surface pressure and hybrid coefficients. 
+Pressure can also be provided in the form of surface pressure and hybrid coefficients.
+
 Spatial and temporal resolution should be as high as possible. Daily files are preferred, but hourly or monthly files are also ok. Hourly output would be perfect.
 
 If you are planning to participate in the comparison to satellite data, please provide a small test file to Andreas Richter (richter@iup.physik.uni-bremen.de) to ensure that we can deal with the file format.
