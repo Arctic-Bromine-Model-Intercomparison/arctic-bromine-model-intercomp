@@ -87,7 +87,7 @@ If some of these variables cannot be saved by your model, saving some is better 
 A text file with hourly locations of O-Buoy 4 and O-Buoy 6 is provided [here](O-buoys_track_B4_B6_Spring2012.txt) for models to interpolate data to their locations.
 
 # Ship track location for data interpolation - 2020 
-A text file with the hourly location of the MOSAiC expedition will be provided for models to interpolate their data to the Polarstern location.
+A text file with the hourly location of the MOSAiC expedition is provided [here](Shiptrack_Polarstern_MOSAiC_Spring2020.txt) for models to interpolate their data to the Polarstern location.
 
 # Ozone sonde locations for data interpolation - 2012 and 2020
 For models that keep subdaily 3D ozone data, text files with 3D location and time of ozone sonde profiles will be provided for modelers to interpolate data to their locations. 
