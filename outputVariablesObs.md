@@ -84,7 +84,7 @@ If some of these variables cannot be saved by your model, saving some is better 
 |Eureka | 80.050 | -86.417 | 610 |
 
 # Buoy locations for data interpolation - 2012
-A text file with hourly locations of O-Buoy 4 and O-Buoy 6 will be provided for models to interpolate data to their locations.
+A text file with hourly locations of O-Buoy 4 and O-Buoy 6 is provided [here](O-buoys_track_B4_B6_Spring2012.txt) for models to interpolate data to their locations.
 
 # Ship track location for data interpolation - 2020 
 A text file with the hourly location of the MOSAiC expedition will be provided for models to interpolate their data to the Polarstern location.
