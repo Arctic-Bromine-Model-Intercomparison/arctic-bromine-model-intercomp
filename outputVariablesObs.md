@@ -102,6 +102,6 @@ Models should plan to provide NetCDF files of model output to U. Bremen and they
 
 Pressure can also be provided in the form of surface pressure and hybrid coefficients.
 
-Spatial and temporal resolution should be as high as possible. Hourly output would be perfect. Daily files are preferred, but hourly or monthly files are also ok.
+Spatial and temporal resolution should be as high as possible. Recommended: hourly output
 
 If you are planning to participate in the comparison to satellite data, please provide a small test file to Andreas Richter (richter@iup.physik.uni-bremen.de) to ensure that we can deal with the file format.
