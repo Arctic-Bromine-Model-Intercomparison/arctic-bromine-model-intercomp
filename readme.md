@@ -33,7 +33,7 @@ See detailed  instructions in instructions.md (https://github.com/jenniethomas/a
 - Chris Holmes (FSU)
   - Model: Geos-Chem
   - Model version: https://doi.org/10.5194/acp-22-14467-2022
-- Kenjiro Toyota, Wanmin Gong
+- Kenjiro Toyota, Wanmin Gong (CCCma/ECCC)
   - Model: GEM-MACH-Arctic
   - Model version: https://doi.org/10.5194/acp-18-16653-2018, https://doi.org/10.5194/acp-22-5775-2022 
 - Andreas Richter (IUP-Bremen)
