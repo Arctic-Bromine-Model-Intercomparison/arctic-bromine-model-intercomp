@@ -23,13 +23,19 @@ See detailed  instructions in instructions.md (https://github.com/jenniethomas/a
 ## Confirmed participating groups, models, & main contacts
 - Jennie Thomas, Louis Marelle (CNRS-IGE/LATMOS)
   - Model: WRF-Chem
-  - Model version: https://doi.org/10.1029/2021JD036140
+  - Model version: https://doi.org/10.1525/elementa.2022.00129
 - Björn-Martin Sinnhuber, Stefanie Falk, Luca Reissig (KIT-IMK-ASF)
   - Model: EMAC
   - Model version: https://doi.org/10.5194/gmd-11-1115-2018
 - Rafael Fernandez, Orlando Tomazzeli, Alfonso Saiz-Lopez (ICB-CONICET)
   - Model: CAM-CHEM
   - Model version: https://doi.org/10.1029/2019MS001655
+- Chris Holmes (FSU)
+  - Model: Geos-Chem
+  - Model version: https://doi.org/10.5194/acp-22-14467-2022
+- Kenjiro Toyota, Wanmin Gong
+  - Model: GEM-MACH-Arctic
+  - Model version: https://doi.org/10.5194/acp-18-16653-2018, https://doi.org/10.5194/acp-22-5775-2022 
 - Andreas Richter (IUP-Bremen)
   - Satellite comparison of models with retrievals of BrO
 
