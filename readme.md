@@ -35,7 +35,10 @@ See detailed  instructions in instructions.md (https://github.com/jenniethomas/a
   - Model version: https://doi.org/10.5194/acp-22-14467-2022
 - Kenjiro Toyota, Wanmin Gong (CCCma/ECCC)
   - Model: GEM-MACH-Arctic
-  - Model version: https://doi.org/10.5194/acp-18-16653-2018, https://doi.org/10.5194/acp-22-5775-2022 
+  - Model version: https://doi.org/10.5194/acp-18-16653-2018, https://doi.org/10.5194/acp-22-5775-2022
+- Xin Yang (BAS)
+  - Model: p-TOMCAT
+  - Version: https://acp.copernicus.org/articles/20/15937/2020/
 - Andreas Richter (IUP-Bremen)
   - Satellite comparison of models with retrievals of BrO
 
