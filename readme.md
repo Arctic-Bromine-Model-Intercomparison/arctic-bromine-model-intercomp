@@ -3,6 +3,9 @@
 ## Description 
 Our plan is to compare and evaluate 3D atmospheric models which include polar halogen sources and reproduce surface ozone depletion. Models will be evaluated against in situ and satellite observations in the Arctic from Spring 2012 and Spring 2020.
 
+## Updates on timing and particpation 
+We plan to collect model runs completed by January 2024 for analysis.  Particpation is open for any groups who would like to join, but we cannot ensure your model outputs will be included if we do not have them available to the group by 1 Feb 2024.
+
 ## How to Join
 Email jennie.thomas@univ-grenoble-alpes.fr with your github login to be added to this repository (https://github.com/jenniethomas/arctic-bromine-model-intercomp/) and to the project's google group (https://groups.google.com/g/arcbromintercomp).
 
