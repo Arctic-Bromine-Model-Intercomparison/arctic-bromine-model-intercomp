@@ -3,7 +3,7 @@
 ## Description 
 Our plan is to compare and evaluate 3D atmospheric models which include polar halogen sources and reproduce surface ozone depletion. Models will be evaluated against in situ and satellite observations in the Arctic from Spring 2012 and Spring 2020.
 
-This intercomparison is part of CATCH (the Cryosphere and Atmospheric Chemistry, https://www.catchscience.org/)
+This intercomparison is a part of CATCH (the Cryosphere and Atmospheric Chemistry, https://www.catchscience.org/)
 
 ## Updates on Timing and Particpation - as of 28 Nov 2023
 We plan to collect model runs completed by the end of the month of January 2024 for analysis.  Particpation is open for any groups who would like to join, but we cannot ensure your model outputs will be included if we do not have them available to the group by 1 Feb 2024.
