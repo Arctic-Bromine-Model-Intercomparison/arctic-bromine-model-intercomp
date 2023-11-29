@@ -46,6 +46,8 @@ See detailed  instructions in instructions.md (https://github.com/jenniethomas/a
   - Version: https://acp.copernicus.org/articles/20/15937/2020/
 - Andreas Richter (IUP-Bremen)
   - Satellite comparison of models with retrievals of BrO
+- William Simpson (University of Alaska Fairbanks)
+  - Data provider, Ozone at O-Buoys and BrO observed by MAX-DOAS in Utqiaġvik
 
 ## Next meeting
 - Please join our mailing list to get all the meeting info!
