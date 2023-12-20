@@ -79,9 +79,9 @@ If some of these variables cannot be saved by your model, saving some is better 
 |Tiksi  | 71.586 | 128.919 | 8 |
 |Summit | 72.578 | -38.459 | 3216 |
 |Nord  | 81.600 | -16.670 | 20 |
-|Alert | 82.499 | -62.341 | 210 |
+|Alert | 82.499 | -62.341 | 30 |
 |Zeppelin | 78.910  | 11.888 | 474 |
-|Eureka | 80.050 | -86.417 | 610 |
+|Eureka | 79.98 | -85.95 | 0 |
 
 # Buoy locations for data interpolation - 2012
 A text file with hourly locations of O-Buoy 4 and O-Buoy 6 is provided [here](O-buoys_track_B4_B6_Spring2012.txt) for models to interpolate data to their locations.
