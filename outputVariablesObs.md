@@ -73,6 +73,7 @@ If some of these variables cannot be saved by your model, saving some is better 
 | Specific humidity | $kg/kg$ | 3 | 3-Hourly |
 
 # Station locations for data interpolation
+Model output should be interpolated in x/y/z/time. Results should also be provided  interpolated in x/y/time at the lowest model level (as a second time series), if possible.
 | Station name      | Lat | Lon | Measurement altitute (meters ASL) |
 | ----------- | ----------- | ---------------- | ---------  |
 |Utqiagvik    | 71.323 |  -156.611 | 11 |
