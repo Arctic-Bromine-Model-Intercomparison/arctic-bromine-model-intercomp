@@ -71,6 +71,7 @@ If some of these variables cannot be saved by your model, saving some is better 
 | Wind direction | $^\circ$ | 3 | 3-Hourly |
 | Relative or specific humidity | \% or $kg/kg$ | 3 | 3-Hourly |
 | Specific humidity | $kg/kg$ | 3 | 3-Hourly |
+| Total aerosol mass | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
 
 # Station locations for data interpolation
 Model output should be interpolated in x/y/z/time. Results should also be provided  interpolated in x/y/time at the lowest model level (as a second time series), if possible.
@@ -97,7 +98,7 @@ For models that keep subdaily 3D ozone data, text files with 3D location and tim
 Models should plan to provide NetCDF files of model output to U. Bremen and they will compare the model fields to their satellite retrievals.  The following information is needed in the files:
  
 - NetCDF dimensions: time, latitude, longitude, layers, levels
-- NetCDF 4d-variables: BrO mixing ratio [ppbv] and temperature [K] at layer centres, pressure [Pa] at layer interfaces
+- NetCDF 4d-variables: BrO mixing ratio [ppbv] and temperature [K] at level centers, pressure [Pa] at level interfaces
 - NetCDF 2(3)d-variable: surface altitude [m]
 - NetCDF attributes: provider, model, version, creation_date
 
