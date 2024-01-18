@@ -78,12 +78,12 @@ Model output should be interpolated in x/y/z/time. Results should also be provid
 | Station name      | Lat | Lon | Measurement altitute (meters ASL) |
 | ----------- | ----------- | ---------------- | ---------  |
 |Utqiagvik    | 71.323 |  -156.611 | 11 |
-|Tiksi  | 71.586 | 128.919 | 8 |
+|Tiksi  | 71.58617 | 128.91823 | 8 |
 |Summit | 72.578 | -38.459 | 3216 |
 |Nord  | 81.600 | -16.670 | 20 |
-|Alert | 82.499 | -62.341 | 30 |
+|Alert | 82.49915 | -62.34153 | 210 |
 |Zeppelin | 78.910  | 11.888 | 474 |
-|Eureka | 79.983 | -85.950 | 0 |
+|Eureka | 80.05000 | -86.41666 | 610 |
 
 # Buoy locations for data interpolation - 2012
 A text file with hourly locations of O-Buoy 4 and O-Buoy 6 is provided [here](O-buoys_track_B4_B6_Spring2012.txt) for models to interpolate data to their locations.
@@ -95,7 +95,7 @@ A text file with the hourly location of the MOSAiC expedition is provided [here]
 For models that keep subdaily 3D ozone data, text files with 3D location and time of ozone sonde profiles will be provided for modelers to interpolate data to their locations. 
 
 # Satellite comparison
-Models should plan to provide NetCDF files of model output to U. Bremen and they will compare the model fields to their satellite retrievals.  The following information is needed in the files:
+Models should plan to provide NetCDF files of model output to U. Bremen and they will compare the model fields to their satellite retrievals. Data should be provided on model levels. The following information is needed in the files:
  
 - NetCDF dimensions: time, latitude, longitude, layers, levels
 - NetCDF 4d-variables: BrO mixing ratio [ppbv] and temperature [K] at level centers, pressure [Pa] at level interfaces
