@@ -78,7 +78,7 @@ Model output should be interpolated in x/y/z/time. Results should also be provid
 | Station name      | Lat | Lon | Measurement altitute (meters ASL) |
 | ----------- | ----------- | ---------------- | ---------  |
 |Utqiagvik    | 71.323 |  -156.611 | 11 |
-|Tiksi  | 71.58617 | 128.91823 | 8 |
+|Tiksi  | 71.58617 | 128.91823 | 10 |
 |Summit | 72.578 | -38.459 | 3216 |
 |Nord  | 81.600 | -16.670 | 20 |
 |Alert | 82.49915 | -62.34153 | 210 |
