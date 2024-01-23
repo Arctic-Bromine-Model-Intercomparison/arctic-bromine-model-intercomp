@@ -36,6 +36,7 @@ If some of these variables cannot be saved by your model, saving some is better 
 | Sea salt aerosol number concentration < 10 ${\mu}m$ | \# $/m^{3}$ | 3 | 3-Hourly |
 | $PM_{2.5}$ concentration | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
 | $PM_{10}$ concentration | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
+| Total aerosol concentration | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
 | Surface Wind speed | $m/s$ | 2 | 3-Hourly |
 | Surface Wind direction | $^\circ$ | 2 | 3-Hourly |
 | Surface Relative or specific humidity | \% or $kg/kg$ | 2 | 3-Hourly |
