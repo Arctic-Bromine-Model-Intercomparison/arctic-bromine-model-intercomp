@@ -30,7 +30,7 @@ meetings while respecting the time of those around us and time limits/agendas co
 All team members are shouldreport instances of unacceptable conduct promptly to the Arctic Bromine Modeling Intercomparison Project organizers.  
 All information provided will be treated as anonymous and action will be taken to ensure appropriate behavior in team meetings and written interactions going forward.
 
-This code of conduct was adapted from:
+## This code of conduct was adapted from:
 * [PinkSkyLab](https://github.com/pinskylab/how_we_work/blob/master/working_agreement.md?fbclid=IwAR3X8TEU4peQO1xxJyvwZzmp6aLI4qUbyxyHC28W8VKzafNzbibP3t6wiSo)
 * [AMS](https://www.ametsoc.org/index.cfm/ams/about-ams/ams-organization-and-administration/ams-code-of-conduct/)
 * [And the IGAC compiled list of codes of conduct](https://igacproject.org/codes-conduct-science)
