@@ -3,8 +3,8 @@
 This code of conduct establishes the standards for expected and unacceptable behavior within the context of the Arctic Bromine Inter-comparison Project. 
 
 ## General Conduct:
-Participating individuals and teams participating in the Arctic Bromine Model Inter-comparison Project are expected to conduct their activities with the utmost i
-ntegrity and adhere to the highest ethical standards. All individuals should be treated with respect, and particpants must abstain from any forms of discrimination, harassment, or 
+Participating individuals and teams participating in the Arctic Bromine Model Inter-comparison Project are expected to conduct their activities with the utmost integrity 
+and adhere to the highest ethical standards. All individuals should be treated with respect, and particpants must abstain from any forms of discrimination, harassment, or 
 bullying during their professional engagements. In instances where members witness or become aware of such behavior by others, they are requested to actively prevent, 
 report, and/or mitigate the offensive conduct.
 
