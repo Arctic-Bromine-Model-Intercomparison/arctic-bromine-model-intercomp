@@ -70,7 +70,6 @@ If some of these variables cannot be saved by your model, saving some is better 
 | Wind direction | $^\circ$ | 4 | 3-Hourly | WD |
 | Relative humidity | \% or $kg/kg$ | 4 | 3-Hourly | RH |
 | Specific humidity | $kg/kg$ | 4 | 3-Hourly | Q |
-| Total aerosol mass | ${\mu}g/m^{3}$ | 4 | 3-Hourly | PM_mass |
 | Rate of het. Br2 formation on all aerosols | \# $/cm^{3}/hour$ | 4 | 3-Hourly | Br2_rate |
 
 
