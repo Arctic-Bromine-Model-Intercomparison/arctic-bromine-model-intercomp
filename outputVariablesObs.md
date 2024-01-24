@@ -12,16 +12,16 @@ We strongly recommend that all the full 2D/3D/4D fields in the table below are s
 | Surface BrO mixing ratio | ppbv | 3 | 3-Hourly | BrO_surface_ppbv |
 | Surface dry sea salt aerosol mass concentration < 10 ${\mu}m$ diameter | $\mu g/m^{3} (ambient)$ | 2 | 3-Hourly | SSA_mass |
 | 2-meter air temperature | K | 3 | 3-Hourly | T2_K |
-| Surface pressure | Pa | 3 | 3-Hourly | P_Pa |
+| Surface pressure | Pa | 3 | 3-Hourly | PSurf_Pa |
 | 10-m wind speed | m/s | 3 | 3-Hourly | W10_m_s |
 | Boundary layer height | m | 3 | 3-Hourly | PBLH_m |
-| BrO mixing ratio  | $ppbv$ | 4 | 3-Hourly | BrO_ |
-| Air temperature | K | 4 | 3-Hourly |
-| Air pressure  | Pa | 4 | 3-Hourly |
-| Sea ice concentration | \% | 3 | 3-Hourly |
-| $Br_2$ emissions| $moles/m^{2}$ | 3 | 3-Hourly |
-| Sea salt aerosol emissions| $mg/m^{2}$ | 3 | 3-Hourly |
-| Altitude of lowermost model level | m AGL + m ASL| 2 | - |
+| BrO mixing ratio  | $ppbv$ | 4 | 3-Hourly | BrO_ppbv |
+| Air temperature | K | 4 | 3-Hourly | T_K |
+| Air pressure  | Pa | 4 | 3-Hourly | P_Pa |
+| Sea ice concentration | \% | 3 | 3-Hourly | xIce_perc |
+| $Br_2$ emissions| $moles/m^{2}/hour$ | 3 | 3-Hourly | Br2_emiss_mol_m2_hour |
+| Sea salt aerosol emissions| $mg/m^{2}$/hour | 3 | 3-Hourly | SSA_emiss_mg_m2_hour |
+| Altitude of lowermost model level | m AGL + m ASL| 2 | - | Alt_lev0_m |
 
 In addition, the following information should be saved:
 - Model grid dimensions: time, latitude, longitude, layers, levels
