@@ -4,7 +4,7 @@ The absolute minimal results to provide in the intercomparison are the following
 - 3-hourly 3D BrO,T,P data in the table below, processed appropriately for comparison to satellite BrO observations
 - Daily 2D variables from the table below.
 
-We strongly recommend that all the full 2D/3D/4D fields in the table below are saved, so that interpolations and analysis can be redone in case of errors.
+We strongly recommend that all the full 2D/3D/4D fields in the table below are saved, so that interpolations and analysis can be redone in case of errors.  Please also keep these files on your own servers for comparison of monthly / weekly averages, which we will do in a second step.
 
 | Variable      | Unit | Dimensions | Frequency | name in file |
 | ----------- | ----------- | ---------------- | ------------| ------------|
@@ -28,7 +28,7 @@ In addition, the following information should be saved:
 - Model information/attributes: provider, model, version, creation_date
 
 # Highly recommended model output
-If some of these variables cannot be saved by your model, saving some is better than none!
+If some of these variables cannot be saved by your model, saving some is better than none! Please keep these files on your own servers for comparison of monthly / weekly averages, which we will do in a second step.
 | Variable      | Unit | Dimensions | Frequency | name in file |
 | ----------- | ----------- | ---------------- | ------------| ------------|
 | $O_3$ mixing ratio | $ppbv$ | 4 | 3-Hourly | O3_ppbv |
@@ -50,7 +50,7 @@ If some of these variables cannot be saved by your model, saving some is better 
 | Sea salt aerosol emissions from sea spray | $mg/m^{2}$ | 3 | 3-Hourly | SSA_emiss_ss |
 
 # Nice-to-have model output
-If some of these variables cannot be saved by your model, saving some is better than none!
+If some of these variables cannot be saved by your model, saving some is better than none! Please keep these files on your own servers for comparison of monthly / weekly averages, which we will do in a second step.
 | Variable      | Unit | Dimensions | Frequency | name in file |
 | ----------- | ----------- | ---------------- | ------------| ------------|
 | $Br_2$ mixing ratio | $ppbv$ | 4 | 3-Hourly | Br2_ppbv |
