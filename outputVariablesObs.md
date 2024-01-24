@@ -74,7 +74,8 @@ If some of these variables cannot be saved by your model, saving some is better 
 
 
 # Station locations for data interpolation
-Model results should also be provided  interpolated in x/y/time at the lowest model level as a time series (3 hourly output).
+Model results should also be provided  interpolated in x/y/time at the lowest model level as a time series (3 hourly output). Please use this output [file format](example_surface_output_txt_file.txt) for your extraction with one file per station.
+
 | Station name      | Lat | Lon | Measurement altitute (meters ASL) |
 | ----------- | ----------- | ---------------- | ---------  |
 |Utqiagvik    | 71.323 |  -156.611 | 11 |
@@ -86,13 +87,13 @@ Model results should also be provided  interpolated in x/y/time at the lowest mo
 |Eureka | 79.9830 | -85.950 | 0 |
 
 # Buoy locations for data interpolation - 2012
-A text file with hourly locations of O-Buoy 4 and O-Buoy 6 is provided [here](O-buoys_track_B4_B6_Spring2012.txt) for models to interpolate data to their locations.  Results should be provided interpolated in x/y/time at the lowest model level as a time series (3 hourly output).
+A text file with hourly locations of O-Buoy 4 and O-Buoy 6 is provided [here](O-buoys_track_B4_B6_Spring2012.txt) for models to interpolate data to their locations.  Results should be provided interpolated in x/y/time at the lowest model level as a time series (3 hourly output).  Please use this output [file format](example_surface_output_txt_file.txt) for your extraction.
 
 # Ship track location for data interpolation - 2020 
-A text file with the hourly location of the MOSAiC expedition is provided [here](Shiptrack_Polarstern_MOSAiC_Spring2020.txt) for models to interpolate their data to the Polarstern location. Results should be provided interpolated in x/y/time at the lowest model level as a time series (3 hourly output).
+A text file with the hourly location of the MOSAiC expedition is provided [here](Shiptrack_Polarstern_MOSAiC_Spring2020.txt) for models to interpolate their data to the Polarstern location. Results should be provided interpolated in x/y/time at the lowest model level as a time series (3 hourly output). Please use this output [file format](example_surface_output_txt_file.txt) for your extraction.
 
 # Ozone sonde locations for data interpolation - 2012 and 2020
-For models that keep 3 hourly ozone data, text files with 3D location and time of ozone sonde profiles will be provided for interpolation (future work!).
+For models that keep 3 hourly ozone data, text files with 3D location and time of ozone sonde profiles will be provided for interpolation (future work!).  We plan to ask for netcdf files, an example is found [here](example_vertical_profile_output.nc).
 
 # Satellite comparison
 Models should plan to provide NetCDF files of model output to U. Bremen and they will compare the model fields to their satellite retrievals. Data should be provided on model levels. The following information is needed in the files:
