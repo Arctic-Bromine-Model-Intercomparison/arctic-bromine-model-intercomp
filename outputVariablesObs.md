@@ -73,7 +73,7 @@ If some of these variables cannot be saved by your model, saving some is better 
 | Relative or specific humidity | \% or $kg/kg$ | 3 | 3-Hourly |
 | Specific humidity | $kg/kg$ | 3 | 3-Hourly |
 | Total aerosol mass | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
-| Rate of het. Br2 formation on all aerosols | \#$/cm^{3}/hour$ | 3 | 3-Hourly |
+| Rate of het. Br2 formation on all aerosols | \# $/cm^{3}/hour$ | 3 | 3-Hourly |
 
 
 # Station locations for data interpolation
