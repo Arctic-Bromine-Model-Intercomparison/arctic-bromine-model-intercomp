@@ -34,9 +34,9 @@ If some of these variables cannot be saved by your model, saving some is better 
 | $O_3$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
 | Sea salt aerosol mass concentration < 10 ${\mu}m$ | $\mu g/m^{3}$ | 3 | 3-Hourly |
 | Sea salt aerosol number concentration < 10 ${\mu}m$ | \# $/m^{3}$ | 3 | 3-Hourly |
-| $PM_{2.5}$ concentration | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
-| $PM_{10}$ concentration | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
-| Total aerosol concentration | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
+| $PM_{2.5}$ mass  | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
+| $PM_{10}$  mass | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
+| Total aerosol mass | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
 | Surface Wind speed | $m/s$ | 2 | 3-Hourly |
 | Surface Wind direction | $^\circ$ | 2 | 3-Hourly |
 | Surface Relative or specific humidity | \% or $kg/kg$ | 2 | 3-Hourly |
@@ -73,6 +73,8 @@ If some of these variables cannot be saved by your model, saving some is better 
 | Relative or specific humidity | \% or $kg/kg$ | 3 | 3-Hourly |
 | Specific humidity | $kg/kg$ | 3 | 3-Hourly |
 | Total aerosol mass | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
+| Rate of Br2 production on aerosols | $# /cm^{3}/hour$ | 3 | 3-Hourly |
+
 
 # Station locations for data interpolation
 Model output should be interpolated in x/y/z/time. Results should also be provided  interpolated in x/y/time at the lowest model level (as a second time series), if possible.
