@@ -8,20 +8,20 @@ We strongly recommend that all the full 2D/3D fields in the table below are save
 
 | Variable      | Unit | Dimensions | Frequency |
 | ----------- | ----------- | ---------------- | ------------|
-| Surface $O_3$ mixing ratio | ppbv | 2 | 3-Hourly |
-| Surface BrO mixing ratio | ppbv | 2 | 3-Hourly |
+| Surface $O_3$ mixing ratio | ppbv | 1 | 3-Hourly |
+| Surface BrO mixing ratio | ppbv | 1 | 3-Hourly |
 | Surface dry sea salt aerosol mass concentration < 10 ${\mu}m$ diameter | $\mu g/m^{3} (ambient)$ | 2 | 3-Hourly |
-| 2-meter air temperature | K | 2 | 3-Hourly |
-| Surface pressure | Pa | 2 | 3-Hourly |
-| 10-m wind speed | m/s | 2 | 3-Hourly |
-| Boundary layer height | m | 2 | 3-Hourly |
-| BrO mixing ratio for satellite comparison | $ppbv$ | 3 | 3-Hourly |
-| Air temperature for satellite comparison | K | 3 | 3-Hourly |
-| Air pressure for satellite comparison | Pa | 3 | 3-Hourly |
-| Sea ice concentration | \% | 2 | Daily |
+| 2-meter air temperature | K | 1 | 3-Hourly |
+| Surface pressure | Pa | 1 | 3-Hourly |
+| 10-m wind speed | m/s | 1 | 3-Hourly |
+| Boundary layer height | m | 1 | 3-Hourly |
+| BrO mixing ratio for satellite comparison | $ppbv$ | 2 | 3-Hourly |
+| Air temperature for satellite comparison | K | 2 | 3-Hourly |
+| Air pressure for satellite comparison | Pa | 2 | 3-Hourly |
+| Sea ice concentration | \% | 1 | Daily |
 | $Br_2$ emissions| $moles/m^{2}$ | 2 | Daily |
-| Sea salt aerosol emissions| $mg/m^{2}$ | 2 | Daily |
-| Altitude of lowermost model level | m AGL + m ASL| - | - |
+| Sea salt aerosol emissions| $mg/m^{2}$ | 1 | Daily |
+| Altitude of lowermost model level | m AGL + m ASL| 1 | 3 hourly |
 
 In addition, the following information should be saved:
 - Model grid dimensions: time, latitude, longitude, layers, levels
@@ -31,48 +31,48 @@ In addition, the following information should be saved:
 If some of these variables cannot be saved by your model, saving some is better than none!
 | Variable      | Unit | Dimensions | Frequency |
 | ----------- | ----------- | ---------------- | ------------|
-| $O_3$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| Sea salt aerosol mass concentration < 10 ${\mu}m$ | $\mu g/m^{3}$ | 3 | 3-Hourly |
-| Sea salt aerosol number concentration < 10 ${\mu}m$ | \# $/m^{3}$ | 3 | 3-Hourly |
-| $PM_{2.5}$ mass  | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
-| $PM_{10}$  mass | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
-| Total aerosol mass | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
-| Surface Wind speed | $m/s$ | 2 | 3-Hourly |
-| Surface Wind direction | $^\circ$ | 2 | 3-Hourly |
+| $O_3$ mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| Sea salt aerosol mass concentration < 10 ${\mu}m$ | $\mu g/m^{3}$ | 2 | 3-Hourly |
+| Sea salt aerosol number concentration < 10 ${\mu}m$ | \# $/m^{3}$ | 2 | 3-Hourly |
+| $PM_{2.5}$ mass  | ${\mu}g/m^{3}$ | 2 | 3-Hourly |
+| $PM_{10}$  mass | ${\mu}g/m^{3}$ | 2 | 3-Hourly |
+| Total aerosol mass | ${\mu}g/m^{3}$ | 2 | 3-Hourly |
+| Surface Wind speed | $m/s$ | 1 | 3-Hourly |
+| Surface Wind direction | $^\circ$ | 1 | 3-Hourly |
 | Surface Relative or specific humidity | \% or $kg/kg$ | 2 | 3-Hourly |
-| Surface $Br_2$ mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| Surface OH mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| Surface $HO_2$ mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| Boundary layer height | $m$ | 2 | 3-Hourly |
-| Sea ice concentration | \% | 2 | Daily |
-| $Br_2$ emissions from surface snow| $moles/m^{2}$ | 2 | Daily |
-| $Br_2$ emissions from blowing snow| $moles/m^{2}$ | 2 | Daily |
-| $Br_2$ emissions from sea spray| $moles/m^{2}$ | 2 | Daily |
-| Sea salt aerosol emissions from blowing snow| $mg/m^{2}$ | 2 | Daily |
-| Sea salt aerosol emissions from sea spray | $mg/m^{2}$ | 2 | Daily |
+| Surface $Br_2$ mixing ratio | $ppbv$ | 1 | 3-Hourly |
+| Surface OH mixing ratio | $ppbv$ | 1 | 3-Hourly |
+| Surface $HO_2$ mixing ratio | $ppbv$ | 1 | 3-Hourly |
+| Boundary layer height | $m$ | 1 | 3-Hourly |
+| Sea ice concentration | \% | 1 | Daily |
+| $Br_2$ emissions from surface snow| $moles/m^{2}$ | 1 | Daily |
+| $Br_2$ emissions from blowing snow| $moles/m^{2}$ | 1 | Daily |
+| $Br_2$ emissions from sea spray| $moles/m^{2}$ | 1 | Daily |
+| Sea salt aerosol emissions from blowing snow| $mg/m^{2}$ | 1 | Daily |
+| Sea salt aerosol emissions from sea spray | $mg/m^{2}$ | 1 | Daily |
 
 # Nice-to-have model output
 If some of these variables cannot be saved by your model, saving some is better than none!
 | Variable      | Unit | Dimensions | Frequency |
 | ----------- | ----------- | ---------------- | ------------|
-| $Br_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| OH mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| $HO_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| HOBr mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| HBr mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| ClO mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| $Cl_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| HOCl concentration | $ppbv$ | 3 | 3-Hourly |
-| HCl mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| IO mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| $I_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| NO mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| NO2 mixing ratio | $ppbv$ | 3 | 3-Hourly |
-| Wind speed | $m/s$ | 3 | 3-Hourly |
-| Wind direction | $^\circ$ | 3 | 3-Hourly |
+| $Br_2$ mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| OH mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| $HO_2$ mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| HOBr mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| HBr mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| ClO mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| $Cl_2$ mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| HOCl concentration | $ppbv$ | 2 | 3-Hourly |
+| HCl mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| IO mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| $I_2$ mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| NO mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| NO2 mixing ratio | $ppbv$ | 2 | 3-Hourly |
+| Wind speed | $m/s$ | 2 | 3-Hourly |
+| Wind direction | $^\circ$ | 2 | 3-Hourly |
 | Relative or specific humidity | \% or $kg/kg$ | 3 | 3-Hourly |
-| Specific humidity | $kg/kg$ | 3 | 3-Hourly |
-| Total aerosol mass | ${\mu}g/m^{3}$ | 3 | 3-Hourly |
+| Specific humidity | $kg/kg$ | 2 | 3-Hourly |
+| Total aerosol mass | ${\mu}g/m^{3}$ | 2 | 3-Hourly |
 | Rate of het. Br2 formation on all aerosols | \# $/cm^{3}/hour$ | 3 | 3-Hourly |
 
 
