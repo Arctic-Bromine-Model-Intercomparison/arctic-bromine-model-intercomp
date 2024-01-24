@@ -76,13 +76,14 @@ Most modeling groups are proceeding nicely with plans to finish first runs by mi
 - There was a discussion about comparing with vertical profiles during MOSAiC, this issue is tabled until the measurements are available publicly and we have completed a comparison with publicly available ground/o-buoy/ship based observations.
 
 #### 5. Comparison with Satellite remote sensing
-There was a typo on our GitHub regarding the requested model output, this is corrected [here](https://github.com/jenniethomas/arctic-bromine-model-intercomp/blob/main/outputVariablesObs.md).  Andreas and Bianca want output on model levels.  Modeling groups should send a small test file of your output to Andreas and Bianca as soon as you are ready to ensure they can understand how to compare your output with their retrievals.
+- There was a typo on our GitHub regarding the requested model output, this is corrected [here](https://github.com/jenniethomas/arctic-bromine-model-intercomp/blob/main/outputVariablesObs.md).  Andreas and Bianca want output on model levels.  Modeling groups should send a small test file of your output to Andreas and Bianca as soon as you are ready to ensure they can understand how to compare your output with their retrievals.
 
 #### 6. Establishment of a code of conduct for our group / discussion and agreement
-We have drafted a code of conduct following our last meeting, [found here](https://github.com/jenniethomas/arctic-bromine-model-intercomp/blob/main/Code_of_conduct.md).
+- We have drafted a code of conduct following our last meeting, [found here](https://github.com/jenniethomas/arctic-bromine-model-intercomp/blob/main/Code_of_conduct.md).
 Please provide any feedback by email to Louis and Jennie.
 
-#### 7. Join our Slack for interactive discussions - please email us to get the link to join our slack.
+#### 7. Join our Slack for interactive discussions 
+- please email us to get the link to join our slack.
 
 We plan to have our next meeting in early March - stay tuned for details.
 
