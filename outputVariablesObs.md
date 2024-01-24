@@ -7,10 +7,10 @@ The absolute minimal results to provide in the intercomparison are the following
 We strongly recommend that all the full 2D/3D/4D fields in the table below are saved, so that interpolations and analysis can be redone in case of errors.
 
 | Variable      | Unit | Dimensions | Frequency | name in file |
-| ----------- | ----------- | ---------------- | ------------|------------|
+| ----------- | ----------- | ---------------- | ------------| ------------|
 | Surface $O_3$ mixing ratio | ppbv | 3 | 3-Hourly | O3_surface_ppbv |
 | Surface BrO mixing ratio | ppbv | 3 | 3-Hourly | BrO_surface_ppbv |
-| Surface dry sea salt aerosol mass concentration < 10 ${\mu}m$ diameter | $\mu g/m^{3} (ambient)$ | 2 | 3-Hourly | SSA_PM10_mass |
+| Surface dry sea salt aerosol mass concentration < 10 ${\mu}m$ diameter | $\mu g/m^{3} (ambient)$ | 2 | 3-Hourly | SSA_surface_PM10_mass |
 | 2-meter air temperature | K | 3 | 3-Hourly | T2_K |
 | Surface pressure | Pa | 3 | 3-Hourly | PSurf_Pa |
 | 10-m wind speed | m/s | 3 | 3-Hourly | W10_m_s |
@@ -29,50 +29,49 @@ In addition, the following information should be saved:
 
 # Highly recommended model output
 If some of these variables cannot be saved by your model, saving some is better than none!
-| Variable      | Unit | Dimensions | Frequency |
-| ----------- | ----------- | ---------------- | ------------|
-| $O_3$ mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| Sea salt aerosol mass concentration < 10 ${\mu}m$ | $\mu g/m^{3}$ | 2 | 3-Hourly |
-| Sea salt aerosol number concentration < 10 ${\mu}m$ | \# $/m^{3}$ | 2 | 3-Hourly |
-| $PM_{2.5}$ mass  | ${\mu}g/m^{3}$ | 2 | 3-Hourly |
-| $PM_{10}$  mass | ${\mu}g/m^{3}$ | 2 | 3-Hourly |
-| Total aerosol mass | ${\mu}g/m^{3}$ | 2 | 3-Hourly |
-| Surface Wind speed | $m/s$ | 1 | 3-Hourly |
-| Surface Wind direction | $^\circ$ | 1 | 3-Hourly |
-| Surface Relative or specific humidity | \% or $kg/kg$ | 2 | 3-Hourly |
-| Surface $Br_2$ mixing ratio | $ppbv$ | 1 | 3-Hourly |
-| Surface OH mixing ratio | $ppbv$ | 1 | 3-Hourly |
-| Surface $HO_2$ mixing ratio | $ppbv$ | 1 | 3-Hourly |
-| Boundary layer height | $m$ | 1 | 3-Hourly |
-| $Br_2$ emissions from surface snow| $moles/m^{2}$ | 1 | 3-Hourly |
-| $Br_2$ emissions from blowing snow| $moles/m^{2}$ | 1 | 3-Hourly |
-| $Br_2$ emissions from sea spray| $moles/m^{2}$ | 1 | 3-Hourly |
-| Sea salt aerosol emissions from blowing snow| $mg/m^{2}$ | 1 | 3-Hourly |
-| Sea salt aerosol emissions from sea spray | $mg/m^{2}$ | 1 | 3-Hourly |
+| Variable      | Unit | Dimensions | Frequency | name in file |
+| ----------- | ----------- | ---------------- | ------------| ------------|
+| $O_3$ mixing ratio | $ppbv$ | 4 | 3-Hourly | O3_ppbv |
+| Sea salt aerosol mass concentration < 10 ${\mu}m$ | $\mu g/m^{3}$ | 4 | 3-Hourly | SSA_PM10_mass |
+| Sea salt aerosol number concentration < 10 ${\mu}m$ | \# $/m^{3}$ | 4 | 3-Hourly | SSA_PM10_number |
+| $PM_{2.5}$ mass  | ${\mu}g/m^{3}$ | 4 | 3-Hourly | PM25_mass |
+| $PM_{10}$  mass | ${\mu}g/m^{3}$ | 4 | 3-Hourly | PM10_mass |
+| Total aerosol mass | ${\mu}g/m^{3}$ | 4 | 3-Hourly | PM_mass |
+| Surface Wind speed | $m/s$ | 3 | 3-Hourly | WS_surface_m_s |
+| Surface Wind direction | $^\circ$ | 3 | 3-Hourly | WD_surface |
+| Surface Relative or specific humidity | \% or $kg/kg$ | 3 | 3-Hourly | RH_surface |
+| Surface $Br_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly | Br2_surface_ppbv |
+| Surface OH mixing ratio | $ppbv$ | 3 | 3-Hourly | OH_surface_ppbv |
+| Surface $HO_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly | HO2_surface_ppbv |
+| $Br_2$ emissions from surface snow | $moles/m^{2}$ | 3 | 3-Hourly | Br2_emiss_surface |
+| $Br_2$ emissions from blowing snow | $moles/m^{2}$ | 3 | 3-Hourly | Br2_emiss_bs |
+| $Br_2$ emissions from sea spray | $moles/m^{2}$ | 3 | 3-Hourly | Br2_emiss_SSA |
+| Sea salt aerosol emissions from blowing snow| $mg/m^{2}$ | 3 | 3-Hourly | SSA_emiss_bs |
+| Sea salt aerosol emissions from sea spray | $mg/m^{2}$ | 3 | 3-Hourly | SSA_emiss_ss |
 
 # Nice-to-have model output
 If some of these variables cannot be saved by your model, saving some is better than none!
-| Variable      | Unit | Dimensions | Frequency |
-| ----------- | ----------- | ---------------- | ------------|
-| $Br_2$ mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| OH mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| $HO_2$ mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| HOBr mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| HBr mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| ClO mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| $Cl_2$ mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| HOCl concentration | $ppbv$ | 2 | 3-Hourly |
-| HCl mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| IO mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| $I_2$ mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| NO mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| NO2 mixing ratio | $ppbv$ | 2 | 3-Hourly |
-| Wind speed | $m/s$ | 2 | 3-Hourly |
-| Wind direction | $^\circ$ | 2 | 3-Hourly |
-| Relative or specific humidity | \% or $kg/kg$ | 3 | 3-Hourly |
-| Specific humidity | $kg/kg$ | 2 | 3-Hourly |
-| Total aerosol mass | ${\mu}g/m^{3}$ | 2 | 3-Hourly |
-| Rate of het. Br2 formation on all aerosols | \# $/cm^{3}/hour$ | 3 | 3-Hourly |
+| Variable      | Unit | Dimensions | Frequency | name in file |
+| ----------- | ----------- | ---------------- | ------------| ------------|
+| $Br_2$ mixing ratio | $ppbv$ | 4 | 3-Hourly | Br2_ppbv |
+| OH mixing ratio | $ppbv$ | 4 | 3-Hourly | OH_ppbv |
+| $HO_2$ mixing ratio | $ppbv$ | 4 | 3-Hourly | HO2_ppbv |
+| HOBr mixing ratio | $ppbv$ | 4 | 3-Hourly | HOBr_ppbv |
+| HBr mixing ratio | $ppbv$ | 4 | 3-Hourly | HBr_ppbv |
+| ClO mixing ratio | $ppbv$ | 4 | 3-Hourly | ClO_ppbv |
+| $Cl_2$ mixing ratio | $ppbv$ | 4 | 3-Hourly | Cl2_ppbv |
+| HOCl concentration | $ppbv$ | 4 | 3-Hourly | HOCl_ppbv |
+| HCl mixing ratio | $ppbv$ | 4 | 3-Hourly | HCl_ppbv |
+| IO mixing ratio | $ppbv$ | 4 | 3-Hourly | IO_ppbv |
+| $I_2$ mixing ratio | $ppbv$ | 4 | 3-Hourly | I2_ppbv |
+| NO mixing ratio | $ppbv$ | 4 | 3-Hourly | NO_ppbv |
+| NO2 mixing ratio | $ppbv$ | 4 | 3-Hourly | NO2_ppbv |
+| Wind speed | $m/s$ | 4 | 3-Hourly | WS |
+| Wind direction | $^\circ$ | 4 | 3-Hourly | WD |
+| Relative humidity | \% or $kg/kg$ | 4 | 3-Hourly | RH |
+| Specific humidity | $kg/kg$ | 4 | 3-Hourly | Q |
+| Total aerosol mass | ${\mu}g/m^{3}$ | 4 | 3-Hourly | PM_mass |
+| Rate of het. Br2 formation on all aerosols | \# $/cm^{3}/hour$ | 4 | 3-Hourly | Br2_rate |
 
 
 # Station locations for data interpolation
