@@ -70,7 +70,7 @@ If some of these variables cannot be saved by your model, saving some is better 
 | Wind direction | $^\circ$ | 4 | 3-Hourly | WD |
 | Relative humidity | \% or $kg/kg$ | 4 | 3-Hourly | RH |
 | Specific humidity | $kg/kg$ | 4 | 3-Hourly | Q |
-| Rate of het. Br2 formation on all aerosols | \# $/cm^{3}/hour$ | 4 | 3-Hourly | Br2_rate |
+| Rate of het. Br2 formation on all aerosols | \# $/cm^{3}/hour$ | 4 | 3-Hourly | het_Br2_rate |
 
 
 # Station locations for data interpolation
