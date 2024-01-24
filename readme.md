@@ -53,6 +53,36 @@ See detailed  instructions in instructions.md (https://github.com/jenniethomas/a
 - Please join our mailing list to get all the meeting info!
 
 ## Past meetings
+
+### 17 Jan 2024
+Notes from last meeting:
+* Summary of where modeling groups are with their runs
+Most modeling groups are proceeding nicely with plans to finish first runs by mid Feb.  We don’t plan to collect large netcdf files from all runs.  
+- Instead we plan to ask you to extract the values suggested at the O-Buoy, surface stations, and MOSAiC ship track (3-hourly data if possible) and provide text files with your output to us at IGE for comparing all the models.  We feel this is a first step before we start plotting maps of all the model output together.  We have corrected some station locations on the GitHub following our discussion.  If you find any more/uncorrected errors, please email Remy Lapere and Louis Marelle to have them corrected on the GitHub.
+
+* Model versions
+- We hope models run in configurations that are published in the literature, with model versions that can be referenced by summer 2024 (no major model updates just for this inter comparison).
+
+* Questions regarding output requirements
+- We have updated the GitHub output instructions here: https://github.com/jenniethomas/arctic-bromine-model-intercomp/blob/main/outputVariablesObs.md. Main changes: Updates to recommended output variables, variable names, updates to recommended output frequency, instructions for extractions at surface stations, O-Buoys, MOSAiC ship track.  An example text file format we hope to get from you with the extraction for the surface observations is provided.  Please do not provide averages, but run output each 3 hours. Please keep your full run output on your own servers - we will work on a strategy for comparing maps, vertical profiles, and other comparisons on our next call.
+- There was a discussion on the need for total aerosol output from the models, so we suggest to extract PM2.5, PM10, and total aerosol mass to look at the role of Arctic haze in sustaining heterogenous Br recycling / ozone depletion.  Models that can save total Br2 formation rates due to heterogenous reactions on aerosols (including sulphate aerosols) please do so and we’ll try to find a way to compare this.
+- We need to provide a specific format for the text files to be provided, we will do this shortly.
+- Comparing with BrO partial columns can also be explored in the future (using data from Bill or Alfonso)
+
+* Summary of publicly available data that can be used for comparison / evaluation
+- There was a discussion about comparing with vertical profiles during MOSAiC, this issue is tabled until the measurements are available publicly and we have completed a comparison with publicly available ground/o-buoy/ship based observations.
+
+* Comparison with Satellite remote sensing
+There was a typo on our GitHub regarding the requested model output, this is corrected here:  https://github.com/jenniethomas/arctic-bromine-model-intercomp/blob/main/outputVariablesObs.md.  Andreas and Bianca want output on model levels.  Modeling groups should send a small test file of your output to Andreas and Bianca as soon as you are ready to ensure they can understand how to compare your output with their retrievals.
+
+* Establishment of a code of conduct for our group / discussion and agreement
+We have drafted a code of conduct following our last meeting:  https://github.com/jenniethomas/arctic-bromine-model-intercomp/blob/main/Code_of_conduct.md
+Please provide any feedback by email to Louis and me.
+
+* Join our Slack for interactive discussions - please email us to get the link to join our slack.
+
+We plan to have our next meeting in early March - stay tuned for details.
+
 ### 8 Dec 2022 at 16:30 to 17:30, CET
 - Decided on run dates 
 - Decided to focus on the Arctic cases, Antarctic case studies could be run as a second step by the modeling groups who are interested
