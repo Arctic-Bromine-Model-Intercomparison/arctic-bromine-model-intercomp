@@ -18,9 +18,9 @@ We strongly recommend that all the full 2D/3D/4D fields in the table below are s
 | BrO mixing ratio  | $ppbv$ | 4 | 3-Hourly | BrO_ |
 | Air temperature | K | 4 | 3-Hourly |
 | Air pressure  | Pa | 4 | 3-Hourly |
-| Sea ice concentration | \% | 3 | Daily |
-| $Br_2$ emissions| $moles/m^{2}$ | 3 | Daily |
-| Sea salt aerosol emissions| $mg/m^{2}$ | 3 | Daily |
+| Sea ice concentration | \% | 3 | 3-Hourly |
+| $Br_2$ emissions| $moles/m^{2}$ | 3 | 3-Hourly |
+| Sea salt aerosol emissions| $mg/m^{2}$ | 3 | 3-Hourly |
 | Altitude of lowermost model level | m AGL + m ASL| 2 | - |
 
 In addition, the following information should be saved:
@@ -44,12 +44,11 @@ If some of these variables cannot be saved by your model, saving some is better 
 | Surface OH mixing ratio | $ppbv$ | 1 | 3-Hourly |
 | Surface $HO_2$ mixing ratio | $ppbv$ | 1 | 3-Hourly |
 | Boundary layer height | $m$ | 1 | 3-Hourly |
-| Sea ice concentration | \% | 1 | Daily |
-| $Br_2$ emissions from surface snow| $moles/m^{2}$ | 1 | Daily |
-| $Br_2$ emissions from blowing snow| $moles/m^{2}$ | 1 | Daily |
-| $Br_2$ emissions from sea spray| $moles/m^{2}$ | 1 | Daily |
-| Sea salt aerosol emissions from blowing snow| $mg/m^{2}$ | 1 | Daily |
-| Sea salt aerosol emissions from sea spray | $mg/m^{2}$ | 1 | Daily |
+| $Br_2$ emissions from surface snow| $moles/m^{2}$ | 1 | 3-Hourly |
+| $Br_2$ emissions from blowing snow| $moles/m^{2}$ | 1 | 3-Hourly |
+| $Br_2$ emissions from sea spray| $moles/m^{2}$ | 1 | 3-Hourly |
+| Sea salt aerosol emissions from blowing snow| $mg/m^{2}$ | 1 | 3-Hourly |
+| Sea salt aerosol emissions from sea spray | $mg/m^{2}$ | 1 | 3-Hourly |
 
 # Nice-to-have model output
 If some of these variables cannot be saved by your model, saving some is better than none!
