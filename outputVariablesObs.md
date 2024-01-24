@@ -10,7 +10,7 @@ We strongly recommend that all the full 2D/3D/4D fields in the table below are s
 | ----------- | ----------- | ---------------- | ------------|------------|
 | Surface $O_3$ mixing ratio | ppbv | 3 | 3-Hourly | O3_surface_ppbv |
 | Surface BrO mixing ratio | ppbv | 3 | 3-Hourly | BrO_surface_ppbv |
-| Surface dry sea salt aerosol mass concentration < 10 ${\mu}m$ diameter | $\mu g/m^{3} (ambient)$ | 2 | 3-Hourly | SSA_mass |
+| Surface dry sea salt aerosol mass concentration < 10 ${\mu}m$ diameter | $\mu g/m^{3} (ambient)$ | 2 | 3-Hourly | SSA_PM10_mass |
 | 2-meter air temperature | K | 3 | 3-Hourly | T2_K |
 | Surface pressure | Pa | 3 | 3-Hourly | PSurf_Pa |
 | 10-m wind speed | m/s | 3 | 3-Hourly | W10_m_s |
