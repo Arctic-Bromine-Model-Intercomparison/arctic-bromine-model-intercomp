@@ -100,7 +100,7 @@ For models that keep 3 hourly ozone data, text files with 3D location and time o
 Models should plan to provide NetCDF files of model output to U. Bremen and they will compare the model fields to their satellite retrievals. Data should be provided on model levels. The following information is needed in the files:
  
 - NetCDF dimensions: time, latitude, longitude, model level number
-- NetCDF 4d-variables: BrO mixing ratio [ppbv] and temperature [K] at level centers, pressure [Pa] at level interfaces (or at model center points and Bremen will apply an interpolation to model grid box interfaces)
+- NetCDF 4d-variables: BrO mixing ratio [ppbv] and temperature [K] at level centers, pressure [Pa] at level interfaces (or at model level centers and Bremen will apply an interpolation to estimate P at interfaces)
 - NetCDF 2(3)d-variable: surface altitude [m]
 - NetCDF attributes: provider, model, version, creation_date
 
