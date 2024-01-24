@@ -74,7 +74,7 @@ If some of these variables cannot be saved by your model, saving some is better 
 
 
 # Station locations for data interpolation
-Model output should be interpolated in x/y/z/time. Results should also be provided  interpolated in x/y/time at the lowest model level as a time series (3 hourly output).
+Model results should also be provided  interpolated in x/y/time at the lowest model level as a time series (3 hourly output).
 | Station name      | Lat | Lon | Measurement altitute (meters ASL) |
 | ----------- | ----------- | ---------------- | ---------  |
 |Utqiagvik    | 71.323 |  -156.611 | 11 |
@@ -86,24 +86,22 @@ Model output should be interpolated in x/y/z/time. Results should also be provid
 |Eureka | 79.9830 | -85.950 | 0 |
 
 # Buoy locations for data interpolation - 2012
-A text file with hourly locations of O-Buoy 4 and O-Buoy 6 is provided [here](O-buoys_track_B4_B6_Spring2012.txt) for models to interpolate data to their locations.
+A text file with hourly locations of O-Buoy 4 and O-Buoy 6 is provided [here](O-buoys_track_B4_B6_Spring2012.txt) for models to interpolate data to their locations.  Results should be provided interpolated in x/y/time at the lowest model level as a time series (3 hourly output).
 
 # Ship track location for data interpolation - 2020 
-A text file with the hourly location of the MOSAiC expedition is provided [here](Shiptrack_Polarstern_MOSAiC_Spring2020.txt) for models to interpolate their data to the Polarstern location.
+A text file with the hourly location of the MOSAiC expedition is provided [here](Shiptrack_Polarstern_MOSAiC_Spring2020.txt) for models to interpolate their data to the Polarstern location. Results should be provided interpolated in x/y/time at the lowest model level as a time series (3 hourly output).
 
 # Ozone sonde locations for data interpolation - 2012 and 2020
-For models that keep subdaily 3D ozone data, text files with 3D location and time of ozone sonde profiles will be provided for modelers to interpolate data to their locations. 
+For models that keep 3 hourly ozone data, text files with 3D location and time of ozone sonde profiles will be provided for interpolation (future work!).
 
 # Satellite comparison
 Models should plan to provide NetCDF files of model output to U. Bremen and they will compare the model fields to their satellite retrievals. Data should be provided on model levels. The following information is needed in the files:
  
-- NetCDF dimensions: time, latitude, longitude, layers, levels
-- NetCDF 4d-variables: BrO mixing ratio [ppbv] and temperature [K] at level centers, pressure [Pa] at level interfaces
+- NetCDF dimensions: time, latitude, longitude, model level number
+- NetCDF 4d-variables: BrO mixing ratio [ppbv] and temperature [K] at level centers, pressure [Pa] at level interfaces (or at model center points and Bremen will apply an interpolation to model grid box interfaces)
 - NetCDF 2(3)d-variable: surface altitude [m]
 - NetCDF attributes: provider, model, version, creation_date
 
-Pressure can also be provided in the form of surface pressure and hybrid coefficients.
+Spatial and temporal resolution should be as high as possible. For satellite comparison, please save hourly (or 3 hourly) output of these fields.
 
-Spatial and temporal resolution should be as high as possible. For satellite comparison, please save hourly output of these fields.
-
-If you are planning to participate in the comparison to satellite data, please provide a small test file to Andreas Richter (richter@iup.physik.uni-bremen.de) to ensure that we can deal with the file format.
+If you are planning to participate in the comparison to satellite data, please provide a small test file to Andreas Richter (richter@iup.physik.uni-bremen.de) and Bianca Zilker (bianca@iup.physik.uni-bremen.de) to ensure that they can deal with the file format.
