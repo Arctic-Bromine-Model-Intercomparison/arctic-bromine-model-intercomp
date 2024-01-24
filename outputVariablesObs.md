@@ -6,22 +6,22 @@ The absolute minimal results to provide in the intercomparison are the following
 
 We strongly recommend that all the full 2D/3D fields in the table below are saved, so that interpolations and analysis can be redone in case of errors.
 
-| Variable      | Unit | Dimensions | Frequency |
-| ----------- | ----------- | ---------------- | ------------|
-| Surface $O_3$ mixing ratio | ppbv | 1 | 3-Hourly |
-| Surface BrO mixing ratio | ppbv | 1 | 3-Hourly |
-| Surface dry sea salt aerosol mass concentration < 10 ${\mu}m$ diameter | $\mu g/m^{3} (ambient)$ | 2 | 3-Hourly |
-| 2-meter air temperature | K | 1 | 3-Hourly |
-| Surface pressure | Pa | 1 | 3-Hourly |
-| 10-m wind speed | m/s | 1 | 3-Hourly |
-| Boundary layer height | m | 1 | 3-Hourly |
-| BrO mixing ratio for satellite comparison | $ppbv$ | 2 | 3-Hourly |
-| Air temperature for satellite comparison | K | 2 | 3-Hourly |
-| Air pressure for satellite comparison | Pa | 2 | 3-Hourly |
-| Sea ice concentration | \% | 1 | Daily |
-| $Br_2$ emissions| $moles/m^{2}$ | 2 | Daily |
-| Sea salt aerosol emissions| $mg/m^{2}$ | 1 | Daily |
-| Altitude of lowermost model level | m AGL + m ASL| 1 | 3 hourly |
+| Variable      | Unit | Dimensions | Frequency | name in file |
+| ----------- | ----------- | ---------------- | ------------|------------|
+| Surface $O_3$ mixing ratio | ppbv | 3 | 3-Hourly | O3_surface_ppbv |
+| Surface BrO mixing ratio | ppbv | 3 | 3-Hourly | BrO_surface_ppbv |
+| Surface dry sea salt aerosol mass concentration < 10 ${\mu}m$ diameter | $\mu g/m^{3} (ambient)$ | 2 | 3-Hourly | SSA_mass |
+| 2-meter air temperature | K | 3 | 3-Hourly | T2_K |
+| Surface pressure | Pa | 3 | 3-Hourly | P_Pa |
+| 10-m wind speed | m/s | 3 | 3-Hourly | W10_m_s |
+| Boundary layer height | m | 3 | 3-Hourly | PBLH_m |
+| BrO mixing ratio  | $ppbv$ | 4 | 3-Hourly | BrO_ |
+| Air temperature | K | 4 | 3-Hourly |
+| Air pressure  | Pa | 4 | 3-Hourly |
+| Sea ice concentration | \% | 3 | Daily |
+| $Br_2$ emissions| $moles/m^{2}$ | 3 | Daily |
+| Sea salt aerosol emissions| $mg/m^{2}$ | 3 | Daily |
+| Altitude of lowermost model level | m AGL + m ASL| 2 | - |
 
 In addition, the following information should be saved:
 - Model grid dimensions: time, latitude, longitude, layers, levels
