@@ -20,8 +20,8 @@ We strongly recommend that all the full 2D/3D/4D fields in the table below are s
 | Air temperature | K | 4 | 3-Hourly | T_K |
 | Air pressure  | Pa | 4 | 3-Hourly | P_Pa |
 | Sea ice concentration | \% | 3 | 3-Hourly | frac_sea_ice |
-| $Br_2$ emissions| $moles/m^{2}/hour$ | 3 | 3-Hourly | Br2_emiss_mol_m2_hour |
-| Sea salt aerosol emissions| $mg/m^{2}/hour$ | 3 | 3-Hourly | SSA_emiss_mg_m2_hour |
+| $Br_2$ emissions| $moles/m^{2}$ accumulated over 3 hours | 3 | 3-Hourly | Br2_emiss_mol_m2 |
+| Sea salt aerosol emissions| $mg/m^{2} $ accumulated over 3 hours | 3 | 3-Hourly | SSA_emiss_mg_m2 |
 | Altitude of lowermost model level | m AGL + m ASL| 2 | - | Alt_lev0_m |
 
 In addition, the following information should be saved:
@@ -44,9 +44,9 @@ If some of these variables cannot be saved by your model, saving some is better 
 | Surface $Br_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly | Br2_surface_ppbv |
 | Surface OH mixing ratio | $ppbv$ | 3 | 3-Hourly | OH_surface_ppbv |
 | Surface $HO_2$ mixing ratio | $ppbv$ | 3 | 3-Hourly | HO2_surface_ppbv |
-| $Br_2$ emissions from surface snow | $moles/m^{2}$ | 3 | 3-Hourly | Br2_emiss_surface |
-| $Br_2$ emissions from blowing snow | $moles/m^{2}$ | 3 | 3-Hourly | Br2_emiss_bs |
-| $Br_2$ emissions from sea spray | $moles/m^{2}$ | 3 | 3-Hourly | Br2_emiss_SSA |
+| $Br_2$ emissions from surface snow | $moles/m^{2}$ accumulated over 3 hours | 3 | 3-Hourly | Br2_emiss_surface |
+| $Br_2$ emissions from blowing snow | $moles/m^{2}$ accumulated over 3 hours | 3 | 3-Hourly | Br2_emiss_bs |
+| $Br_2$ emissions from sea spray | $moles/m^{2}$ accumulated over 3 hours | 3 | 3-Hourly | Br2_emiss_ssa |
 | Sea salt aerosol emissions from blowing snow| $mg/m^{2}$ | 3 | 3-Hourly | SSA_emiss_bs |
 | Sea salt aerosol emissions from sea spray | $mg/m^{2}$ | 3 | 3-Hourly | SSA_emiss_ss |
 
@@ -71,7 +71,7 @@ If some of these variables cannot be saved by your model, saving some is better 
 | Wind direction | $^\circ$ | 4 | 3-Hourly | WD |
 | Relative humidity | \% or $kg/kg$ | 4 | 3-Hourly | RH |
 | Specific humidity | $kg/kg$ | 4 | 3-Hourly | Q |
-| Rate of het. Br2 formation on all aerosols | \# $/cm^{3}/hour$ | 4 | 3-Hourly | het_Br2_rate |
+| Rate of het. Br2 formation on all aerosols | \# $/cm^{3}$ accumulated over 3 hours| 4 | 3-Hourly | het_Br2_rate |
 
 
 # Station locations for data interpolation
