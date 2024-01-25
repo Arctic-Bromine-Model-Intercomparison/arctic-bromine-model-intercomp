@@ -21,7 +21,7 @@ We strongly recommend that all the full 2D/3D/4D fields in the table below are s
 | Air pressure  | Pa | 4 | 3-Hourly | P_Pa |
 | Sea ice concentration | \% | 3 | 3-Hourly | frac_sea_ice |
 | $Br_2$ emissions| $moles/m^{2}$ accumulated over 3 hours | 3 | 3-Hourly | Br2_emiss_mol_m2 |
-| Sea salt aerosol emissions| $mg/m^{2} $ accumulated over 3 hours | 3 | 3-Hourly | SSA_emiss_mg_m2 |
+| Sea salt aerosol emissions| ${mg/m^{2}}$ accumulated over 3 hours | 3 | 3-Hourly | SSA_emiss_mg_m2 |
 | Altitude of lowermost model level | m AGL + m ASL| 2 | - | Alt_lev0_m |
 
 In addition, the following information should be saved:
