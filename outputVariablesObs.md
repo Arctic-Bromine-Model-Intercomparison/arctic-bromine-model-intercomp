@@ -47,8 +47,8 @@ If some of these variables cannot be saved by your model, saving some is better 
 | $Br_2$ emissions from surface snow | $moles/m^{2}$ accumulated over 3 hours | 3 | 3-Hourly | Br2_emiss_surface |
 | $Br_2$ emissions from blowing snow | $moles/m^{2}$ accumulated over 3 hours | 3 | 3-Hourly | Br2_emiss_bs |
 | $Br_2$ emissions from sea spray | $moles/m^{2}$ accumulated over 3 hours | 3 | 3-Hourly | Br2_emiss_ssa |
-| Sea salt aerosol emissions from blowing snow| $mg/m^{2}$ | 3 | 3-Hourly | SSA_emiss_bs |
-| Sea salt aerosol emissions from sea spray | $mg/m^{2}$ | 3 | 3-Hourly | SSA_emiss_ss |
+| Sea salt aerosol emissions from blowing snow| $mg/m^{2}$ accumulated over 3 hours | 3 | 3-Hourly | SSA_emiss_bs |
+| Sea salt aerosol emissions from sea spray | $mg/m^{2}$ accumulated over 3 hours | 3 | 3-Hourly | SSA_emiss_ss |
 
 # Nice-to-have model output
 If some of these variables cannot be saved by your model, saving some is better than none! Please keep these files on your own servers for comparison of monthly / weekly averages, which we will do in a second step.
