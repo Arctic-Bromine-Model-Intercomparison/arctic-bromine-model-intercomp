@@ -55,12 +55,13 @@ See detailed  instructions in instructions.md (https://github.com/jenniethomas/a
 ## Past meetings
 
 ### 17 Jan 2024
-Notes from last meeting:
+
 #### 1. Summary of where modeling groups are with their runs
 Most modeling groups are proceeding nicely with plans to finish first runs by mid Feb.  We don’t plan to collect large netcdf files from all runs.  
 - Instead we plan to ask you to extract the values suggested at the O-Buoy, surface stations, and MOSAiC ship track (3-hourly data if possible) and provide text files with your output to us at IGE for comparing all the models.
 - We feel this is a first step before we start plotting maps of all the model output together.  Please keep your original output files to provide netcdf files for comparison later.
 - We have corrected some station locations on the GitHub following our discussion.  If you find any more/uncorrected errors, please email Remy Lapere and Louis Marelle to have them corrected on the GitHub.
+- Update 25 Jan 2024 - after meeting - we updated the emissions rates and other rates recommended to save as accummulated over 3 hours in each 3 hourly output file.
 
 #### 2. Model versions
 - We hope models run in configurations that are published in the literature, with model versions that can be referenced by summer 2024 (no major model updates just for this inter comparison).
