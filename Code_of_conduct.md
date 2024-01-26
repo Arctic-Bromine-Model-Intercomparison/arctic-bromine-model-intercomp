@@ -25,8 +25,8 @@ the boundaries and experiences of our fellow community members. Specifically, we
 * Refrain from making personal comments or comments on behavior, focusing on the content and scientific analysis during dicussions.
 
 ## Reporting
-All team members should report instances of unacceptable conduct promptly to the Arctic Bromine Modeling Inter-comparison Project organizers.  
-All information provided will be treated as anonymous and action will be taken to ensure appropriate behavior in team meetings and written interactions going forward.
+* All team members should report instances of unacceptable conduct promptly to the Arctic Bromine Modeling Inter-comparison Project organizers.  
+* All information provided will be treated as anonymous and action will be taken to ensure appropriate behavior in team meetings and written interactions going forward.
 
 ## This code of conduct was adapted from
 * [PinkSkyLab](https://github.com/pinskylab/how_we_work/blob/master/working_agreement.md?fbclid=IwAR3X8TEU4peQO1xxJyvwZzmp6aLI4qUbyxyHC28W8VKzafNzbibP3t6wiSo)
