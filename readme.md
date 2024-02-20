@@ -14,7 +14,7 @@ We plan to collect model runs completed by the end of the month of January 2024 
 | EMAC |  Not received  |    Not received   |   Partially received  |    Not received   |
 | CAM-CHEM |  Not received  |    Not received   |   Not received   |    Not received   |
 | Geos-Chem |  Not received  |    Not received   |   Not received   |    Not received   |
-| GEM-MACH-Arctic |  Not received  |    Not received   |   Not received   |    Not received   |
+| GEM-MACH-Arctic |  Received  |    Not received   |   Received   |    Not received   |
 | p-TOMCAT |  Not received  |    Not received   |   Not received   |    Not received   |
 
 ## How to Join
