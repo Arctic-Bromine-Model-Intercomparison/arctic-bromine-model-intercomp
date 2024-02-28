@@ -10,12 +10,12 @@ We plan to collect model runs completed by the end of the month of January 2024 
 
 | Models | 2012 time series | 2012 NetCDF files | 2020 time series | 2020 NetCDF files |
 |--------|------------------|-------------------|------------------|-------------------|
-| WRF-Chem |  Not received  |    Not received   |   Not received   |    Not received   |
+| WRF-Chem |  Not received  |    Not received   |   Partially received   |    Partially received   |
 | EMAC |  Not received  |    Not received   |   Partially received  |    Not received   |
 | CAM-CHEM |  Not received  |    Not received   |   Not received   |    Not received   |
 | Geos-Chem |  Not received  |    Not received   |   Not received   |    Not received   |
 | GEM-MACH-Arctic |  Received  |    Not received   |   Received   |    Not received   |
-| p-TOMCAT |  Not received  |    Not received   |   Not received   |    Not received   |
+| p-TOMCAT |  Partially received  |    Not received   |   Received   |    Received   |
 
 ## How to Join
 Email jennie.thomas@univ-grenoble-alpes.fr with your github login to be added to this repository (https://github.com/jenniethomas/arctic-bromine-model-intercomp/) and to the project's google group (https://groups.google.com/g/arcbromintercomp).
