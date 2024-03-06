@@ -74,6 +74,7 @@ If some of these variables cannot be saved by your model, saving some is better 
 | Relative humidity | \% or $kg/kg$ | 4 | 3-Hourly | RH |
 | Specific humidity | $kg/kg$ | 4 | 3-Hourly | Q |
 | Rate of het. Br2 formation on all aerosols | \# $/cm^{3}$ accumulated over 3 hours| 4 | 3-Hourly | het_Br2_rate |
+| $O_3$ dry deposition | $g/m^{2}/hr$ accumulated over 3 hours| 3 | 3-Hourly | o3_dry_dep |
 
 
 # Station locations for data interpolation
