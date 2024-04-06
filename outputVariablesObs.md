@@ -73,7 +73,7 @@ If some of these variables cannot be saved by your model, saving some is better 
 | Wind direction | $^\circ$ | 4 | 3-Hourly | WD |
 | Relative humidity | \% or $kg/kg$ | 4 | 3-Hourly | RH |
 | Specific humidity | $kg/kg$ | 4 | 3-Hourly | Q |
-| Rate of het. Br2 formation on all aerosols | \# $/cm^{3}$ accumulated over 3 hours| 4 | 3-Hourly | het_Br2_rate |
+| Rate of het. Br2 formation on all aerosols | \mol $/cm^{3}$ accumulated over 3 hours| 4 | 3-Hourly | het_Br2_rate |
 | $O_3$ dry deposition | $g/m^{2}/hr$ accumulated over 3 hours| 3 | 3-Hourly | o3_dry_dep |
 | Sea ice age | years | 3 | 3-Hourly | ice_age_years |
 | Br2 photolysis frequency | $1/s$  | 4 | 3-Hourly | j_Br2 |
