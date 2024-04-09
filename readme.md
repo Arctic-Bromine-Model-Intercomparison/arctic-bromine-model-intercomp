@@ -15,7 +15,7 @@ We plan to collect model runs completed by the end of the month of January 2024 
 | CAM-CHEM |  Not received  |    Not received   |   Not received   |    Not received   |
 | Geos-Chem |  Not received  |    Not received   |   Not received   |    Not received   |
 | GEM-MACH-Arctic |  Received  |    Not received   |   Received   |    Not received   |
-| p-TOMCAT |  Partially received  |    Not received   |   Received   |    Received   |
+| p-TOMCAT |  Partially received  |    Received   |   Received   |    Received   |
 
 ## How to Join
 Email jennie.thomas@univ-grenoble-alpes.fr with your github login to be added to this repository (https://github.com/jenniethomas/arctic-bromine-model-intercomp/) and to the project's google group (https://groups.google.com/g/arcbromintercomp).
