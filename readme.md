@@ -41,7 +41,7 @@ See detailed  instructions in instructions.md (https://github.com/jenniethomas/a
 - Björn-Martin Sinnhuber, Stefanie Falk, Luca Reissig (KIT-IMK-ASF)
   - Model: EMAC
   - Model version: https://doi.org/10.5194/gmd-11-1115-2018
-- Rafael Fernandez, Orlando Tomazzeli, Alfonso Saiz-Lopez (ICB-CONICET)
+- Rafael Fernandez (AC2-CSIC), Orlando Tomazzeli, Alfonso Saiz-Lopez (ICB-CONICET)
   - Model: CAM-CHEM
   - Model version: https://doi.org/10.1029/2019MS001655
 - Chris Holmes (FSU)
