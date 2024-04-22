@@ -13,7 +13,7 @@ We plan to collect model runs completed by the 15th of May 2024 for analysis.
 | WRF-Chem |  Received  |    Received   |   Received   |    Received  |
 | EMAC |  Received  |    Not received   |   Received  |    Not received   |
 | CAM-CHEM |  Not received  |    Not received   |   Not received   |    Not received   |
-| Geos-Chem |  Not received  |    Not received   |   Not received   |    Not received   |
+| Geos-Chem |  Not received  |    Received   |   Not received   |    Received   |
 | GEM-MACH-Arctic |  Received  |    Not received   |   Received   |    Not received   |
 | p-TOMCAT |  Partially received  |    Received   |   Received   |    Received   |
 
