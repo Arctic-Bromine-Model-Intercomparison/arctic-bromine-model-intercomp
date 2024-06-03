@@ -10,10 +10,10 @@ We plan to collect model runs completed by the 15th of May 2024 for analysis.
 
 | Models | 2012 time series | 2012 NetCDF files | 2020 time series | 2020 NetCDF files |
 |--------|------------------|-------------------|------------------|-------------------|
-| WRF-Chem |  Partially Received  |  Partially Received   |   Partially Received   |    Partially Received  |
+| WRF-Chem |   Received  |   Received   |    Received   |     Received  |
 | EMAC |  Received  |    Received   |   Received  |    Received   |
-| CAM-CHEM |  Not received  |    Received   |   Not received   |   Received   |
-| Geos-Chem |  Not received  |    Received   |   Not received   |    Received   |
+| CAM-CHEM |  -  |    Received   |   -   |   Received   |
+| Geos-Chem |  -  |    Received   |   -   |    Received   |
 | GEM-MACH-Arctic |  Received  |    Received   |   Received   |    Received   |
 | p-TOMCAT |  Received  |    Received   |   Received   |    Received   |
 
