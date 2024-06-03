@@ -6,7 +6,7 @@ Our plan is to compare and evaluate 3D atmospheric models which include polar ha
 This intercomparison is a part of CATCH (the Cryosphere and Atmospheric Chemistry, https://www.catchscience.org/)
 
 ## Updates on Timing and Participation
-We plan to collect model runs completed by the 15th of May 2024 for analysis.
+Model runs have been mostly completed and have been collected and centratized at a server in IGE.
 
 | Models | 2012 time series | 2012 NetCDF files | 2020 time series | 2020 NetCDF files |
 |--------|------------------|-------------------|------------------|-------------------|
