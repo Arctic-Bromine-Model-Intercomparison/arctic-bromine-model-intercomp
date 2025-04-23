@@ -12,8 +12,8 @@ Model runs have been mostly completed and have been collected and centratized at
 |--------|------------------|-------------------|------------------|-------------------|
 | WRF-Chem |   Received  |   Received   |    Received   |     Received  |
 | EMAC |  Received  |    Received   |   Received  |    Received   |
-| CAM-CHEM |  -  |    Received   |   -   |   Received   |
-| Geos-Chem |  -  |    Received   |   -   |    Received   |
+| CAM-CHEM |  Received  |    Received   |   Received   |   Received   |
+| Geos-Chem |  Received  |    Received   |   Received   |    Received   |
 | GEM-MACH-Arctic |  Received  |    Received   |   Received   |    Received   |
 | p-TOMCAT |  Received  |    Received   |   Received   |    Received   |
 
